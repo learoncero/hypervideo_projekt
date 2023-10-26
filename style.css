@@ -27,7 +27,7 @@ div.navbar nav {
 div.navbar a {
     color: black;
     text-decoration: none;
-    padding: 40px 30px;
+    padding: 20px 20px;
     display: inline-block;
 }
 
@@ -45,6 +45,6 @@ div.logo {
 }
 
 div.logo img {
-    width: 80px;
-    height: auto;
+    width: auto;
+    height: 40px;
 }
