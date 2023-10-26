@@ -9,22 +9,26 @@ div.welcome_page_text {
     margin-right: 600px;
 }
 
-div.navbar nav {
-    list-style-type: none;
-    overflow: hidden;
+div.navbar {
     background-color: rgb(226, 195, 16);
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-div.navbar nav a {
-    float: left;
-    display: block;
+div.navbar nav {
+    list-style-type: none;
+}
+
+div.navbar a {
     color: black;
-    text-align: center;
-    padding: 15px 30px;
     text-decoration: none;
+    padding: 40px 30px;
+    display: inline-block;
 }
 
 div.navbar a:hover:not(.active) {
@@ -33,4 +37,14 @@ div.navbar a:hover:not(.active) {
 
 div.navbar a.active {
     background-color: rgb(255, 239, 148);
+}
+
+div.logo {
+    float: right;
+    margin-right: 30px;
+}
+
+div.logo img {
+    width: 80px;
+    height: auto;
 }
