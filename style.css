@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+   font-family: yu gothic light;
 }
 
 div.welcome_page_text {
@@ -26,6 +27,7 @@ div.navbar nav {
 
 div.navbar a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
     padding: 15px 40px;
     display: inline-block;
