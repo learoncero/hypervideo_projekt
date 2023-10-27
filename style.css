@@ -52,10 +52,15 @@ div.logo img {
     height: 60px;
 }
 
+div.video_page_text {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
 div.player {
   position: relative;
-  top: 50px;
-  margin-left: 50px;
+  margin-left: 5%;
   margin-right: 50%;
   
   
