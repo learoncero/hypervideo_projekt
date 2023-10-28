@@ -1,7 +1,8 @@
 * {
     margin:0;
     padding:0;
-   font-family: yu gothic light;
+    font-family: yu gothic light;
+    box-sizing: border-box;
 }
 
 div.welcome_page_text {
@@ -50,4 +51,49 @@ div.logo {
 div.logo img {
     width: auto;
     height: 60px;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+div.video_page_text {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+div.player {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 50%;
+  
+  
+}
+
+div.player video {
+  width: 500px;
+  height: auto;
+  
+}
+
+div.team_page_text {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+div.team_images_column {
+    margin-left: 5%;
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+
+div.team_images_row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+	
+>>>>>>> Stashed changes
