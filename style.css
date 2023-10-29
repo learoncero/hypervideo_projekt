@@ -52,22 +52,51 @@ div.logo img {
     height: 60px;
 }
 
-div.video_page_text {
-    margin-top: 100px;
-    margin-left: 5%;
+div.video_page_title {
+	position: relative;
+    margin-top: 25px;
+    margin-left: 2%;
     margin-right: 45%;
+	border:1px solid;
+}
+
+div.video_page_title h1{
+	margin-bottom: 0px;
+}
+
+div.video_page_table {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	border: 1px solid;
+}
+
+div.video_page_table td {
+	border: 1px solid;
+	vertical-align: top;
+}
+
+div.video_page_table td:first-child {
+	width: auto;
+	heigth: 200px;
+}
+
+div.video_page_table td:nth-child(2){
+	width: 35%;
+	padding: 15px;
 }
 
 div.player {
-  position: relative;
-  margin-left: 5%;
-  margin-right: 50%;
-  
+  /*oposition: relative;
+  margin-top: 10px;
+  margin-left: 50px; */  
   
 }
 
 div.player video {
-  width: 500px;
+  width: 100%;
   height: auto;
   
 }
