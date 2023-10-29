@@ -80,7 +80,6 @@ div.video_page_table td {
 
 div.video_page_table td:first-child {
 	width: auto;
-	heigth: 200px;
 }
 
 div.video_page_table td:nth-child(2){
