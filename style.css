@@ -88,10 +88,7 @@ div.video_page_table td:nth-child(2){
 }
 
 div.player {
-  /*oposition: relative;
-  margin-top: 10px;
-  margin-left: 50px; */  
-  
+  oposition: relative;
 }
 
 div.player video {
