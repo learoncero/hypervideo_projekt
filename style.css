@@ -57,7 +57,7 @@ div.video_page_title {
     margin-top: 25px;
     margin-left: 2%;
     margin-right: 45%;
-	border:1px solid;
+	/*border:1px solid;*/
 }
 
 div.video_page_title h2{
@@ -70,11 +70,11 @@ div.video_page_table {
 	margin-left: 2%;
 	margin-right: 2%;
 	width: 96%;
-	border: 1px solid;
+	/*border:1px solid;*/
 }
 
 div.video_page_table td {
-	border: 1px solid;
+	/*border:1px solid;*/
 	vertical-align: top;
 }
 
