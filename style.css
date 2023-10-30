@@ -1,7 +1,8 @@
 * {
     margin:0;
     padding:0;
-   font-family: yu gothic light;
+    font-family: yu gothic light;
+    box-sizing: border-box;
 }
 
 div.welcome_page_text {
@@ -94,6 +95,25 @@ div.player_column {
 div.player video {
   width: auto;
   height: 450px;
-  
 }
+
+div.team_page_text {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+div.team_images_column {
+    margin-left: 5%;
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+
+div.team_images_row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 	
