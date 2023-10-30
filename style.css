@@ -13,7 +13,7 @@ div.welcome_page_text {
 
 div.navbar {
     background-color: rgb(226, 195, 16);
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     display: flex;
@@ -51,29 +51,50 @@ div.logo {
 div.logo img {
     width: auto;
     height: 60px;
-<<<<<<< Updated upstream
-}
-=======
 }
 
-div.video_page_text {
-    margin-top: 100px;
-    margin-left: 5%;
+div.video_page_title {
+	position: relative;
+    margin-top: 25px;
+    margin-left: 2%;
     margin-right: 45%;
+	/*border:1px solid;*/
 }
 
-div.player {
-  position: relative;
-  margin-left: 5%;
-  margin-right: 50%;
-  
-  
+div.video_page_title h1{
+	margin-bottom: 0px;
+}
+
+div.video_page_table {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	/*border:1px solid;*/
+}
+
+div.video_page_table td {
+	/*border:1px solid;*/
+	vertical-align: top;
+}
+
+div.video_page_table td:first-child {
+	width: auto;
+}
+
+div.video_page_table td:nth-child(2){
+	width: 35%;
+	padding: 15px;
+}
+
+div.player_column {
+  oposition: relative;
 }
 
 div.player video {
-  width: 500px;
-  height: auto;
-  
+  width: auto;
+  height: 450px;
 }
 
 div.team_page_text {
@@ -96,4 +117,3 @@ div.team_images_row::after {
     display: table;
   }
 	
->>>>>>> Stashed changes
