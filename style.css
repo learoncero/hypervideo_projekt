@@ -87,13 +87,13 @@ div.video_page_table td:nth-child(2){
 	padding: 15px;
 }
 
-div.player {
+div.player_column {
   oposition: relative;
 }
 
 div.player video {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 450px;
   
 }
 	
