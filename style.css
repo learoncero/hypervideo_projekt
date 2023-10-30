@@ -92,7 +92,7 @@ div.player_column {
   oposition: relative;
 }
 
-div.player video {
+div.player_column video {
   width: auto;
   height: 450px;
 }
