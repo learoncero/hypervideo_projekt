@@ -108,7 +108,15 @@ div.team_images_column {
     float: left;
     width: 20%;
     height: auto;
-    padding: 5px;
+}
+
+div.team_images_column img {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+div.team_images_column ul {
+    margin-left: 5%;
 }
 
 div.team_images_row::after {
@@ -116,4 +124,5 @@ div.team_images_row::after {
     clear: both;
     display: table;
   }
+
 	
