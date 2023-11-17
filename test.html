@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InfoActiveVideo</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box" id="box">
+            This is a box!
+        </div>
+        
+        <div>
+            <button type="button" id="button">Visible</button>
+            <button type="button" id="button1">Hidden</button>
+        </div>
+          
+
+        
+    </body>
+
+    <script>
+        const button = document.getElementById("button");
+        const button1 = document.getElementById("button1");
+        const box = document.getElementById("box");
+
+        button.addEventListener("click", function() {
+            box.isVisible = true;
+        });
+
+        button1.addEventListener("click", function() {
+
+            box.isVisible = false;
+        });
+
+    </script>
+</html>

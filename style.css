@@ -66,7 +66,7 @@ div.video_page_title h1{
 }
 
 div.video_page_table {
-	position: absolute;
+	position: relative;
 	margin-top: 0px;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -89,12 +89,13 @@ div.video_page_table td:nth-child(2){
 }
 
 div.player_column {
-  oposition: relative;
+  position: relative;
 }
 
 div.player_column video {
   width: auto;
   height: 450px;
+  z-index: -1;
 }
 
 div.team_page_text {
@@ -125,4 +126,15 @@ div.team_images_row::after {
     display: table;
   }
 
-	
+.box-container .box {
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}	
