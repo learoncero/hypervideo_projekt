@@ -31,25 +31,20 @@
         <div class="video_page_table">
           <table>
             <tr>
-              <td>
+              <td class="video-column">
                 <div class="player_column">
                   <video id="videoID" controls nopictureinpicture controlslist="nofullscreen">
                     <source src="video/LosAngelesArial.mp4" type="video/mp4">
                     <source src="video/LosAngelesArial.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                   </video>
-                  <div class="box-container">
-                    <a href="https://www.fhv.at/" target="_blank">
-                      <div class="box" id="boxID"></div>
-                    </a>
-                  </div>
                 </div> 										
               </td>
-              <td>
-                <div class="infobox">
+              <td class="text-column">
+                <div class="infobox" style="border: 3px blue">
                   <h2>Tutorial</h2>
                   </br>
-                  <p>
+                  <p style="border: 3px red">
                     Here is all the info needed to use this site.
                     We will explain here how the video works and how you can see different kinds of
                     information. There will sometimes also be a link to an external site, which will offer
@@ -65,22 +60,26 @@
             </tr>
           </table>
         </div>
+        <div class="box-container">
+          <a>
+            <div class="box" id="boxID"></div>
+          </a>
+        </div>
     </body>
 
     <script src="box.js"></script>
     <script>
       const video = document.getElementById("videoID");
       const box = document.getElementById("boxID");
+      var infoBox = document.querySelector(".infobox p")
 
       video.addEventListener("timeupdate", function() {
-        displayBox(box, 2, 4);
+        displayBox(box, 5, 9);
       });
 
       box.addEventListener("click", function() {
+        updateInfoBox(infoBox, "Das ist der US Bank Toweraaaaaaaaaaa aaaaaaaaaaaaa aaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa aaaaaa aaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         video.pause();
       });
-
-      var months = ["January", "February", "March"];
-
     </script>
 </html>

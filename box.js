@@ -10,5 +10,6 @@ function displayBox(boxID, start, end) {
     }
 }
 
-function addBoxes(array, boxContainer) { 
+function updateInfoBox(infoBox, description) { 
+    infoBox.innerHTML = description;
 }
