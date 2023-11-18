@@ -60,26 +60,55 @@
             </tr>
           </table>
         </div>
-        <div class="box-container">
-          <a>
-            <div class="box" id="boxID"></div>
-          </a>
+        <div class="box-container" id="box-container">
         </div>
     </body>
 
     <script src="box.js"></script>
     <script>
-      const video = document.getElementById("videoID");
-      const box = document.getElementById("boxID");
-      var infoBox = document.querySelector(".infobox p")
+      // Assuming your JSON file is in the same directory as your HTML file
+      fetch('video.json')
+        .then(response => response.json())
+        .then(data => {
+          const timestamps = data.video.timestamps;
+          const buildings = data.video.buildings;
+          var video = document.getElementById("videoID");
+          var boxContainer = document.getElementById("box-container"); 
+          var index = 0;
 
-      video.addEventListener("timeupdate", function() {
-        displayBox(box, 5, 9);
-      });
+          video.addEventListener("timeupdate", function() {
+            if ((index < timestamps.length) && (video.currentTime >= timestamps[index].timestamp)) {
+              timestamps[index].buildings.forEach(building => {
+                addBox(building, boxContainer, timestamps[index].timestamp);
+              });
+              index += 1;
+            }
+            const boxes = document.querySelectorAll(".box");
+            const infoBoxText = document.querySelector(".infobox p");
+            
+            boxes.forEach(box => {
+              box.addEventListener("click", function() {
+                var boxID = box.getAttribute("id");
+                var description;
 
-      box.addEventListener("click", function() {
-        updateInfoBox(infoBox, "Das ist der US Bank Toweraaaaaaaaaaa aaaaaaaaaaaaa aaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa aaaaaa aaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-        video.pause();
-      });
+                buildings.forEach(building => {
+                  if (building.id.localeCompare(boxID)) {
+                    description = building.description;
+                  }
+                });
+
+                updateInfoBox(infoBoxText, description);
+                video.pause();
+              });
+
+              let end = box.getAttribute("data-end");
+              let start = box.getAttribute("data-start");
+              if ((video.currentTime >= end) || (video.currentTime <= start)) {
+                boxContainer.removeChild(box.parentNode);
+              }
+            });
+          });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
     </script>
 </html>
