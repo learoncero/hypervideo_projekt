@@ -93,6 +93,10 @@ div.video_page_table .text-column {
 	overflow: hidden;
 }
 
+div.infobox {
+    max-width: 70%;
+}
+
 div.player_column {
   position: relative;
 }
