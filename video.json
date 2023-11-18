@@ -18,7 +18,7 @@
           }
         },
         {
-          "buildingId": "bank_of_american_plaza",
+          "buildingId": "bank_of_america_plaza",
           "duration": 4,
           "position": {
             "x": 544,
@@ -93,7 +93,7 @@
       "start": 30,
       "buildings": [
         {
-          "buildingId": "two_california_plaza",
+          "buildingId": "2cal",
           "duration": 4,
           "position": {
             "x": 557,
@@ -103,7 +103,7 @@
           }
         },
         {
-          "buildingId": "at_t_switching_center",
+          "buildingId": "at_and_t_switching_center",
           "duration": 4,
           "position": {
             "x": 424,
@@ -618,53 +618,48 @@
   "buildings": [
     {
       "id": "us_bank_tower",
-      "name": "US BANK TOWER",
-      "description": "This is the US BANK TOWER"
+      "name": "U.S. Bank Tower",
+      "description": "U.S. Bank Tower, known locally as the Library Tower and formerly as the First Interstate Bank World Center, is a 1,018-foot (310.3m) skyscraper in downtown Los Angeles, California. It is the second-tallest building in Los Angeles.\n\n1. Name: U.S. Bank Tower\n\n2. Location: 633 West Fifth Street, Los Angeles, California, USA.\n\n3. Height: The U.S. Bank Tower stands at 1,018 feet (310 meters), making it the tallest building in California and the 12th tallest in the United States as of my knowledge cutoff in January 2022.\n\n4. Architect: Designed by architect Henry N. Cobb of the architectural firm Pei Cobb Freed & Partners.\n\n5. Construction: The building was completed in 1989 and opened to the public in 1990. It was initially known as the Library Tower and later renamed the U.S. Bank Tower after U.S. Bancorp."
     },
     {
-      "id": "bank_of_american_plaza",
-      "name": "BANK OF AMERICAN PLAZA",
-      "description": "This is the BANK OF AMERICAN PLAZA"
+      "id": "bank_of_america_plaza",
+      "name": "Bank of America Plaza",
+      "description": "Bank of America Plaza, formerly Security Pacific Plaza, is a 55-story, 224.03m (735.0 ft) class-A office skyscraper on Bunker Hill, Los Angeles, California. It was completed in 1974 with the headquarters of Security Pacific National Bank, Capital Group Companies and Sheppard, Mullin, Richter & Hampton as its main tenants. The tower is the fifth tallest building in Los Angeles, and the 92nd-tallest building in the United States. Featured in several motion pictures, such as being used as the fictional headquarters for Mattel in the film Barbie. Its plaza area was also filmed as that of the adjacent \"Peerless Building\" to the Glass Tower in The Towering Inferno (which was set in San Francisco), as well as the lawyer's office in the film Pretty Woman, and as Tex Richman's office headquarters in The Muppets."
     },
     {
       "id": "wells_fargo_tower",
-      "name": "WELLS FARGO TOWER",
-      "description": "This is the WELLS FARGO TOWER"
+      "name": "Wells Fargo Tower",
+      "description": "Wells Fargo Center is a twin tower skyscraper complex in Downtown Los Angeles on Bunker Hill, in Los Angeles, California. It comprises South and North towers, which are joined by a three-story glass atrium. Wells Fargo Tower (Tower I), at 220m (720 ft) it is the tallest building of the complex. It has 54 floors and it is the 8th tallest building in Los Angeles, and the 92nd-tallest building in the United States. When it opened in 1983, it was known as the Crocker Tower, named after San Francisco-based Crocker National Bank. Crocker merged with Wells Fargo in 1986."
     },
     {
       "id": "aon_center",
-      "name": "AON CENTER",
-      "description": "This is the AON CENTER"
+      "name": "Aon Center",
+      "description": "Aon Center is a 62-story, 858 ft (262m) Modernist office skyscraper at 707 Wilshire Boulevard in downtown Los Angeles, California. Upon its completion in 1973, the building was the tallest in the world outside of New York and Chicago. It remained the tallest building in Los Angeles until 1989, when Library Tower (now U.S. Bank Tower) was completed. Between 1998 and 2001, there were no logos on the building.\n\n 1. Location: The Aon Center is situated in downtown Los Angeles, California.\n\n21. Height: The Aon Center in Los Angeles is a prominent skyscraper with a height of approximately 858 feet (261 meters). It is one of the tallest buildings in the city.\n\n3. Architecture: The building features modern architectural design and is characterized by its sleek and distinctive appearance.\n\n4. Function: The Aon Center is a commercial office building, and it serves as a hub for various businesses and offices."
     },
     {
       "id": "oceanwide_plaza_tower_i",
-      "name": "OCEANWIDE PLAZA TOWER I",
-      "description": "This is the OCEANWIDE PLAZA TOWER I"
+      "name": "Oceanwide Plaza Tower I",
+      "description": "Oceanwide Plaza is a partially-completed residential and retail complex composed of three towers in downtown Los Angeles, California, across the street from Crypto.com Arena and the Los Angeles Convention Center. Tower one will feature an 184-room five-star Park Hyatt hotel and 164 Park Hyatt serviced condo residences, a live-in hotel option. Towers two and three will have 504 residential condominiums. They will reach a total of 530 ft; 40 floors in height. When completed, they will become the 11th and 21st tallest buildings in Los Angeles. The Park Hyatt project marks the luxury brand's first hotel and branded residences on the West Coast. Location:\n\n1. Address: 1188 S. Figueroa Street, Los Angeles, CA 90015, USA. Situated in the South Park neighborhood of downtown Los Angeles.\n 2. Developer: The project is developed by Oceanwide Holdings, a Chinese conglomerate with interests in real estate, finance, and energy.\n 3. Components: Oceanwide Plaza is a multi-tower development featuring residential, hotel, and retail components. The project includes three high-rise towers.\n4. Towers: The development consists of three towers: The Park Hyatt Hotel Tower: This tower houses the luxury Park Hyatt hotel. The Residences Tower: Features condominiums and apartments. The Collection: A retail and amenity space.\n 5. Hotel: The Park Hyatt Hotel Tower includes a high-end hotel with luxury accommodations and amenities."
     },
     {
       "id": "the_ritz_carlton_los_angeles",
-      "name": "THE RITZ-CARLTON LOS ANGELES",
-      "description": "This is the THE RITZ-CARLTON LOS ANGELES"
+      "name": "The Ritz-Carlton Los Angeles",
+      "description": "The centerpiece of the district is a 54-story, 1,001-room two-hotel hybrid tower, constructed above the parking lot directly north of the Staples Center. The Ritz-Carlton Hotel Company, LLC is an American multinational company that operates the luxury hotel chain known as The Ritz-Carlton. The company has 108 luxury hotels and resorts in 30 countries and territories with 29,158 rooms, in addition to 46 hotels with 8,755 rooms planned for the future."
     },
     {
       "id": "l_a_live",
       "name": "L.A. LIVE",
-      "description": "This is the L.A. LIVE"
+      "description": "L.A. Live is an entertainment complex in the South Park District of Downtown Los Angeles, California. It is adjacent to the Crypto.com Arena and Los Angeles Convention Center.\n\nL.A. Live was developed by Anschutz Entertainment Group (AEG) (which Anschutz is based in and L.A. Live is the flagship of), Wachovia Corp, Azteca Corp, investment firm MacFarlane Partners, and with tax deferments paid by Los Angeles taxpayers. It cost approximately US$2.5 billion to build. The architectural firm responsible for the master plan and phase two buildings was Baltimore-based RTKL Associates. \n 1. Name: L.A. Live\n\n 2. Location: 800 W Olympic Blvd, Los Angeles, CA 90015, USA\n\n 3. Description:\nL.A. Live is a bustling entertainment and sports district that features a variety of attractions, including sports and music venues, restaurants, hotels, and theaters. It is adjacent to the Staples Center and the Los Angeles Convention Center, making it a central hub for entertainment and events in downtown Los Angeles.\n\nKey Components:\n\nStaples Center: A major sports and entertainment arena that hosts concerts, sporting events, and other live performances. It is the home arena for the Los Angeles Lakers and the Los Angeles Clippers NBA teams, as well as the Los Angeles Kings NHL team.\n\nMicrosoft Theater: A popular music and entertainment venue with a seating capacity of over 7,000. It hosts concerts, award shows, and other live events.\n\nThe Novo: A smaller concert venue adjacent to the Microsoft Theater, suitable for more intimate performances.\n\nRegal Cinemas L.A. Live: A multi-screen movie theater offering the latest film releases.\n\nJW Marriott Los Angeles L.A. Live and The Ritz-Carlton, Los Angeles: Luxurious hotels that provide accommodation options for visitors to the area.\n\nRestaurants and Nightlife: L.A. Live features a variety of dining options, including restaurants, bars, and clubs, providing a diverse culinary experience."
     },
     {
-      "id": "two_california_plaza",
-      "name": "TWO CALIFORNIA PLAZA",
-      "description": "This is the TWO CALIFORNIA PLAZA"
-    },
-    {
-      "id": "at_t_switching_center",
-      "name": "AT&T SWITCHING CENTER",
-      "description": "This is the AT&T SWITCHING CENTER"
+      "id": "at_and_t_switching_center",
+      "name": "AT&T Switching Center",
+      "description": "The AT&T Madison Complex Tandem Office is a 17-story, 79m (259 ft) building in Los Angeles, California, completed in 1961. With its microwave tower, used through 1993, bringing the overall height to 137m (449 ft), it is the 29th tallest building in Los Angeles. The building serves 1.3 million phone lines in area code 213, and other Los Angeles area codes, for foreign long-distance calling."
     },
     {
       "id": "crypto_com_arena",
-      "name": "CRYPTO.COM ARENA",
-      "description": "This is the CRYPTO.COM ARENA"
+      "name": "Crypto.com Arena",
+      "description": "Crypto.com Arena is a multi-purpose indoor arena in Downtown Los Angeles. The main attraction of the L.A. Live development, it is located next to the Los Angeles Convention Center complex along Figueroa Street. The arena opened on October 17, 1999; it was previously known as Staples Center until December 2021 when Crypto.com acquired the naming rights. The arena is the flagship attraction of locally-based Anschutz Entertainment Group. Crypto.com Arena has 950,000 square feet (88,257.9 m2) of total space, with a 94-foot (28.7 m) by 200-foot (61.0 m) arena floor. It stands 150 feet (45.7 m) tall. The arena seats up to 19,067 for basketball, 18,145 for ice hockey, and around 20,000 for concerts or other sporting events. Name: Crypto.com Arena\n\nLocation: 1111 S Figueroa St, Los Angeles, CA 90015, USA\n\nOwnership: The arena is owned and operated by the Anschutz Entertainment Group (AEG).\n\nTenants:\n\nLos Angeles Lakers (NBA)\nLos Angeles Clippers (NBA)\nLos Angeles Kings (NHL)"
     },
     {
       "id": "peacock_theater_and_the_novo",
