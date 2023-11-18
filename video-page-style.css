@@ -38,6 +38,10 @@ div.player-column {
   position: relative;
 }
 
+div.infobox {
+    max-width: 70%;
+}
+
 div.player-column video {
   width: auto;
   height: 450px;

@@ -24,4 +24,4 @@ div.team-images-row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
