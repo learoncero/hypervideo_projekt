@@ -14,8 +14,12 @@ function addBox(building, container, start) {
     boxLink.appendChild(boxDiv);
 }
 
-function updateInfoBox(infoBox, description) { 
-    infoBox.innerHTML = description;
+function updateInfoBox(infoBox, description, title) {
+    var h2Element = infoBox.querySelector('h2');
+    var pElement = infoBox.querySelector('p');
+    
+    h2Element.innerHTML = title;
+    pElement.innerHTML = description;
 }
 
 function createElement(elementType) {

@@ -42,20 +42,17 @@
                 </div> 										
               </td>
               <td class="text-column">
-                <div class="infobox" style="border: 3px blue">
+                <div id="infobox" class="infobox" style="border: 3px blue">
                   <h2>Tutorial</h2>
-                  </br>
                   <p style="border: 3px red">
                     Here is all the info needed to use this site.
                     We will explain here how the video works and how you can see different kinds of
                     information. There will sometimes also be a link to an external site, which will offer
                     you more information, if you want to look into an item or subject closer. 
-                  </p>  
-                  </br>
-                  <p>
+                    <br><br>
                     Here is an example:
                     <a href="http://www.google.at">Search for anything</a>
-                  </p>
+                  </p>  
                 </div>
               </td>
             </tr>
@@ -89,23 +86,23 @@
             });
 
             const boxes = document.querySelectorAll(".box");
-            const infoBoxText = document.querySelector(".infobox p");
+            const infoBox = document.getElementById("infobox");
             
             boxes.forEach(box => {
               box.addEventListener("click", function() {
-                event.preventDefault();
-
                 var boxID = box.getAttribute("id");
                 var description;
+                var title;
 
                 buildings.forEach(building => {
                   if (building.id == boxID) {
                     description = building.description;
+                    title = building.name;
                     return;
                   }
                 });
-
-                updateInfoBox(infoBoxText, description);
+                
+                updateInfoBox(infoBox, description, title);
                 video.pause();
               });
 

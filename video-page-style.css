@@ -55,3 +55,7 @@ div.player-column video {
     position: absolute;
     cursor: pointer;
 }	
+
+div.infobox h2 {
+    margin-bottom: 15px;
+}
