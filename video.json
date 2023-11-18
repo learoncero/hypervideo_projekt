@@ -5,7 +5,7 @@
   "height": 1080,
   "timestamps": [
     {
-      "timestamp": 5,
+      "start": 5,
       "buildings": [
         {
           "buildingId": "us_bank_tower",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "timestamp": 10,
+      "start": 10,
       "buildings": [
         {
           "buildingId": "aon_center",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "timestamp": 20,
+      "start": 20,
       "buildings": [
         {
           "buildingId": "the_ritz_carlton_los_angeles",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "timestamp": 30,
+      "start": 30,
       "buildings": [
         {
           "buildingId": "two_california_plaza",
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "timestamp": 35,
+      "start": 35,
       "buildings": [
         {
           "buildingId": "crypto_com_arena",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "timestamp": 40,
+      "start": 40,
       "buildings": [
         {
           "buildingId": "city_national_bank",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "timestamp": 45,
+      "start": 45,
       "buildings": [
         {
           "buildingId": "777_tower",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "timestamp": 50,
+      "start": 50,
       "buildings": [
         {
           "buildingId": "611_place",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "timestamp": 55,
+      "start": 55,
       "buildings": [
         {
           "buildingId": "us_bank_tower",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "timestamp": 61,
+      "start": 61,
       "buildings": [
         {
           "buildingId": "dodgers_stadium",
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "timestamp": 71,
+      "start": 71,
       "buildings": [
         {
           "buildingId": "california_highway_patrol",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "timestamp": 76,
+      "start": 76,
       "buildings": [
         {
           "buildingId": "junction_between_10_110",
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "timestamp": 81,
+      "start": 81,
       "buildings": [
         {
           "buildingId": "us_bank_tower",
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "timestamp": 83,
+      "start": 83,
       "buildings": [
         {
           "buildingId": "2cal",
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "timestamp": 88,
+      "start": 88,
       "buildings": [
         {
           "buildingId": "union_bank_plaza",
@@ -340,7 +340,7 @@
       ]
     },
     {
-      "timestamp": 93,
+      "start": 93,
       "buildings": [
         {
           "buildingId": "gas_company_tower_deloitte",
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "timestamp": 97,
+      "start": 97,
       "buildings": [
         {
           "buildingId": "2cal",
@@ -415,6 +415,201 @@
             "y": 556,
             "width": 82,
             "height": 71               
+          }
+        }
+      ]
+    },
+    {
+      "start": 106,
+      "buildings": [
+        {
+          "buildingId": "figueroa_at_wilshire",
+          "duration": 4,
+          "position": {
+            "x": 127,
+            "y": 204,
+            "width": 277,
+            "height": 309                
+          }
+        },
+        {
+          "buildingId": "city_national_plaza_twin_towers",
+          "duration": 1,
+          "position": {
+            "x": 528,
+            "y": 298,
+            "width": 302,
+            "height": 341               
+          }
+        }
+      ]
+    },
+    {
+      "start": 111,
+      "buildings": [
+        {
+          "buildingId": "wedbush_center",
+          "duration": 3,
+          "position": {
+            "x": 581,
+            "y": 205,
+            "width": 241,
+            "height": 197                
+          }
+        },
+        {
+          "buildingId": "tenten_wilshire",
+          "duration": 3,
+          "position": {
+            "x": 591,
+            "y": 405,
+            "width": 239,
+            "height": 248               
+          }
+        }
+      ]
+    },
+    {
+      "start": 114,
+      "buildings": [
+        {
+          "buildingId": "arco_tower",
+          "duration": 1,
+          "position": {
+            "x": 546,
+            "y": 204,
+            "width": 279,
+            "height": 450                
+          }
+        }
+      ]
+    },
+    {
+      "start": 115,
+      "buildings": [
+        {
+          "buildingId": "city_national_plaza_twin_towers",
+          "duration": 2,
+          "position": {
+            "x": 579,
+            "y": 450,
+            "width": 162,
+            "height": 203                
+          }
+        },
+        {
+          "buildingId": "aon_center",
+          "duration": 3,
+          "position": {
+            "x": 241,
+            "y": 343,
+            "width": 117,
+            "height": 310               
+          }
+        },
+                  {
+          "buildingId": "777_tower",
+          "duration": 4,
+          "position": {
+            "x": 434,
+            "y": 302,
+            "width": 56,
+            "height": 175                
+          }
+        }
+      ]
+    },
+    {
+      "start": 125,
+      "buildings": [
+        {
+          "buildingId": "aon_center",
+          "duration": 3,
+          "position": {
+            "x": 63,
+            "y": 293,
+            "width": 72,
+            "height": 300                
+          }
+        },
+        {
+          "buildingId": "611_place",
+          "duration": 3,
+          "position": {
+            "x": 183,
+            "y": 382,
+            "width": 87,
+            "height": 248               
+          }
+        },
+        {
+          "buildingId": "gas_company_tower_deloitte",
+          "duration": 3,
+          "position": {
+            "x": 452,
+            "y": 337,
+            "width": 96,
+            "height": 302               
+          }
+        },
+        {
+          "buildingId": "2cal",
+          "duration": 3,
+          "position": {
+            "x": 662,
+            "y": 310,
+            "width": 87,
+            "height": 274               
+          }
+        }
+      ]
+    },
+    {
+      "start": 134,
+      "buildings": [
+        {
+          "buildingId": "777_tower",
+          "duration": 3,
+          "position": {
+            "x": 710,
+            "y": 234,
+            "width": 120,
+            "height": 419                
+          }
+        },
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 3,
+          "position": {
+            "x": 303,
+            "y": 265,
+            "width": 312,
+            "height": 389               
+          }
+        },
+        {
+          "buildingId": "ey_plaza",
+          "duration": 3,
+          "position": {
+            "x": 518,
+            "y": 329,
+            "width": 97,
+            "height": 267               
+          }
+        }
+      ]
+    },
+    {
+      "start": 138,
+      "buildings": [
+        {
+          "buildingId": "los_angeles_convention_center",
+          "duration": 6,
+          "position": {
+            "x": 406,
+            "y": 386,
+            "width": 194,
+            "height": 180                
           }
         }
       ]
@@ -550,6 +745,31 @@
       "id": "westin_bonaventure_hotel",
       "name": "Westin Bonaventure Hotel",
       "description": "This is the Westin Bonaventure Hotel"
+    },
+    {
+      "id": "wedbush_center",
+      "name": "Wedbush Center",
+      "description": "This is the Wedbush Center"
+    },
+    {
+      "id": "tenten_wilshire",
+      "name": "TENTEN Wilshire",
+      "description": "This is the TENTEN Wilshire"
+    },
+    {
+      "id": "arco_tower",
+      "name": "ARCO Tower",
+      "description": "This is the ARCO Tower"
+    },
+    {
+      "id": "ey_plaza",
+      "name": "EY Plaza",
+      "description": "This is the EY Plaza"
+    },
+    {
+      "id": "los_angeles_convention_center",
+      "name": "Los Angeles Convention Center",
+      "description": "This is the Los Angeles Convention Center"
     }
   ]
   }

@@ -73,18 +73,21 @@
         .then(data => {
           const timestamps = data.video.timestamps;
           const buildings = data.video.buildings;
-          console.log(buildings);
           var video = document.getElementById("videoID");
           var boxContainer = document.getElementById("box-container"); 
-          var index = 0;
 
           video.addEventListener("timeupdate", function() {
-            if ((index < timestamps.length) && (video.currentTime >= timestamps[index].timestamp)) {
-              timestamps[index].buildings.forEach(building => {
-                addBox(building, boxContainer, timestamps[index].timestamp);
-              });
-              index += 1;
-            }
+            timestamps.forEach(timestamp => {
+              if (video.currentTime >= timestamp.start) {
+                timestamp.buildings.forEach(building => {
+                  const end = timestamp.start + building.duration;
+                  if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
+                    addBox(building, boxContainer, timestamp.start);
+                  }
+                });
+              }
+            });
+
             const boxes = document.querySelectorAll(".box");
             const infoBoxText = document.querySelector(".infobox p");
             
