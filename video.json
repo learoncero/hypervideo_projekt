@@ -1,556 +1,61 @@
 {
-  "video": {
-  "url": "video/LosAngelesArial.mp4",
-  "width": 1920,
-  "height": 1080,
-  "timestamps": [
-    {
-      "timestamp": 5,
-      "buildings": [
+    "video": {
+      "url": "video/LosAngelesArial.mp4",
+      "width": 1920,
+      "height": 1080,
+      "timestamps": [
         {
-          "buildingId": "us_bank_tower",
-          "duration": 4,
-          "position": {
-            "x": 349,
-            "y": 244,
-            "width": 55,
-            "height": 389                
-          }
+          "timestamp": 2,
+          "buildings": [
+            {
+              "buildingId": "wedbush_center",
+              "duration": 2,
+              "position": {
+                "x": 581,
+                "y": 205,
+                "width": 250,
+                "height": 100                
+              }
+            },
+            {
+              "buildingId": "bank_tower",
+              "duration": 3,
+              "position": {
+                "x": 591,
+                "y": 405,
+                "width": 250,
+                "height": 260
+              }
+            }
+          ]
         },
         {
-          "buildingId": "bank_of_american_plaza",
-          "duration": 4,
-          "position": {
-            "x": 544,
-            "y": 367,
-            "width": 167,
-            "height": 263
-          }
+          "timestamp": 4,
+          "buildings": [
+            {
+              "buildingId": "wedbush_center",
+              "duration": 3,
+              "position": {
+                "x": 100,
+                "y": 280,
+                "width": 90,
+                "height": 100                
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "wedbush_center",
+          "name": "Wedbush Center",
+          "description": "This is the Wedbush Center"
         },
         {
-          "buildingId": "wells_fargo_tower",
-          "duration": 4,
-          "position": {
-            "x": 125,
-            "y": 357,
-            "width": 171,
-            "height": 273
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 10,
-      "buildings": [
-        {
-          "buildingId": "aon_center",
-          "duration": 9,
-          "position": {
-            "x": 506,
-            "y": 267,
-            "width": 32,
-            "height": 170                
-          }
-        },
-        {
-          "buildingId": "oceanwide_plaza_tower_i",
-          "duration": 9,
-          "position": {
-            "x": 318,
-            "y": 283,
-            "width": 42,
-            "height": 146
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 20,
-      "buildings": [
-        {
-          "buildingId": "the_ritz_carlton_los_angeles",
-          "duration": 9,
-          "position": {
-            "x": 72,
-            "y": 302,
-            "width": 80,
-            "height": 270                
-          }
-        },
-        {
-          "buildingId": "l_a_live",
-          "duration": 9,
-          "position": {
-            "x": 72,
-            "y": 496,
-            "width": 358,
-            "height": 144
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 30,
-      "buildings": [
-        {
-          "buildingId": "two_california_plaza",
-          "duration": 4,
-          "position": {
-            "x": 557,
-            "y": 279,
-            "width": 92,
-            "height": 344                
-          }
-        },
-        {
-          "buildingId": "at_t_switching_center",
-          "duration": 4,
-          "position": {
-            "x": 424,
-            "y": 409,
-            "width": 73,
-            "height": 214
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 35,
-      "buildings": [
-        {
-          "buildingId": "crypto_com_arena",
-          "duration": 5,
-          "position": {
-            "x": 380,
-            "y": 354,
-            "width": 264,
-            "height": 185                
-          }
-        },
-        {
-          "buildingId": "peacock_theater_and_the_novo",
-          "duration": 5,
-          "position": {
-            "x": 160,
-            "y": 377,
-            "width": 168,
-            "height": 122
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 40,
-      "buildings": [
-        {
-          "buildingId": "city_national_bank",
-          "duration": 4,
-          "position": {
-            "x": 360,
-            "y": 341,
-            "width": 86,
-            "height": 218                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 45,
-      "buildings": [
-        {
-          "buildingId": "777_tower",
-          "duration": 4,
-          "position": {
-            "x": 522,
-            "y": 267,
-            "width": 44,
-            "height": 195                
-          }
-        },
-        {
-          "buildingId": "tcw_tower",
-          "duration": 4,
-          "position": {
-            "x": 658,
-            "y": 332,
-            "width": 73,
-            "height": 187
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 50,
-      "buildings": [
-        {
-          "buildingId": "611_place",
-          "duration": 4,
-          "position": {
-            "x": 319,
-            "y": 406,
-            "width": 41,
-            "height": 108                
-          }
-        },
-        {
-          "buildingId": "city_national_plaza_twin_towers",
-          "duration": 4,
-          "position": {
-            "x": 356,
-            "y": 354,
-            "width": 76,
-            "height": 113
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 55,
-      "buildings": [
-        {
-          "buildingId": "us_bank_tower",
-          "duration": 4,
-          "position": {
-            "x": 398,
-            "y": 317,
-            "width": 190,
-            "height": 347                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 61,
-      "buildings": [
-        {
-          "buildingId": "dodgers_stadium",
-          "duration": 3,
-          "position": {
-            "x": 178,
-            "y": 435,
-            "width": 568,
-            "height": 184                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 71,
-      "buildings": [
-        {
-          "buildingId": "california_highway_patrol",
-          "duration": 4,
-          "position": {
-            "x": 574,
-            "y": 513,
-            "width": 189,
-            "height": 144                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 76,
-      "buildings": [
-        {
-          "buildingId": "junction_between_10_110",
-          "duration": 5,
-          "position": {
-            "x": 207,
-            "y": 296,
-            "width": 464,
-            "height": 316                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 81,
-      "buildings": [
-        {
-          "buildingId": "us_bank_tower",
-          "duration": 6,
-          "position": {
-            "x": 465,
-            "y": 296,
-            "width": 109,
-            "height": 403                
-          }
-        },
-        {
-          "buildingId": "gas_company_tower_deloitte",
-          "duration": 6,
-          "position": {
-            "x": 106,
-            "y": 496,
-            "width": 220,
-            "height": 202
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 83,
-      "buildings": [
-        {
-          "buildingId": "2cal",
-          "duration": 4,
-          "position": {
-            "x": 305,
-            "y": 561,
-            "width": 517,
-            "height": 139                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 88,
-      "buildings": [
-        {
-          "buildingId": "union_bank_plaza",
-          "duration": 4,
-          "position": {
-            "x": 358,
-            "y": 419,
-            "width": 68,
-            "height": 145                
-          }
-        },
-        {
-          "buildingId": "figueroa_at_wilshire",
-          "duration": 4,
-          "position": {
-            "x": 648,
-            "y": 361,
-            "width": 61,
-            "height": 182                
-          }
-        },
-        {
-          "buildingId": "los_angeles_center_studios",
-          "duration": 4,
-          "position": {
-            "x": 355,
-            "y": 597,
-            "width": 150,
-            "height": 100                
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 93,
-      "buildings": [
-        {
-          "buildingId": "gas_company_tower_deloitte",
-          "duration": 3,
-          "position": {
-            "x": 178,
-            "y": 425,
-            "width": 172,
-            "height": 264                
-          }
-        },
-        {
-          "buildingId": "us_bank_tower",
-          "duration": 3,
-          "position": {
-            "x": 388,
-            "y": 332,
-            "width": 258,
-            "height": 365               
-          }
-        }
-      ]
-    },
-    {
-      "timestamp": 97,
-      "buildings": [
-        {
-          "buildingId": "2cal",
-          "duration": 8,
-          "position": {
-            "x": 210,
-            "y": 547,
-            "width": 83,
-            "height": 118                
-          }
-        },
-        {
-          "buildingId": "wells_fargo_tower",
-          "duration": 8,
-          "position": {
-            "x": 355,
-            "y": 570,
-            "width": 89,
-            "height": 124               
-          }
-        },
-        {
-          "buildingId": "us_bank_tower",
-          "duration": 8,
-          "position": {
-            "x": 399,
-            "y": 404,
-            "width": 44,
-            "height": 158                
-          }
-        },
-        {
-          "buildingId": "union_bank_plaza",
-          "duration": 8,
-          "position": {
-            "x": 650,
-            "y": 498,
-            "width": 56,
-            "height": 120               
-          }
-        },
-        {
-          "buildingId": "westin_bonaventure_hotel",
-          "duration": 8,
-          "position": {
-            "x": 551,
-            "y": 556,
-            "width": 82,
-            "height": 71               
-          }
+          "id": "bank_tower",
+          "name": "Bank Tower",
+          "description": "This is the Bank Tower"
         }
       ]
     }
-  ],
-  "buildings": [
-    {
-      "id": "us_bank_tower",
-      "name": "US BANK TOWER",
-      "description": "This is the US BANK TOWER"
-    },
-    {
-      "id": "bank_of_american_plaza",
-      "name": "BANK OF AMERICAN PLAZA",
-      "description": "This is the BANK OF AMERICAN PLAZA"
-    },
-    {
-      "id": "wells_fargo_tower",
-      "name": "WELLS FARGO TOWER",
-      "description": "This is the WELLS FARGO TOWER"
-    },
-    {
-      "id": "aon_center",
-      "name": "AON CENTER",
-      "description": "This is the AON CENTER"
-    },
-    {
-      "id": "oceanwide_plaza_tower_i",
-      "name": "OCEANWIDE PLAZA TOWER I",
-      "description": "This is the OCEANWIDE PLAZA TOWER I"
-    },
-    {
-      "id": "the_ritz_carlton_los_angeles",
-      "name": "THE RITZ-CARLTON LOS ANGELES",
-      "description": "This is the THE RITZ-CARLTON LOS ANGELES"
-    },
-    {
-      "id": "l_a_live",
-      "name": "L.A. LIVE",
-      "description": "This is the L.A. LIVE"
-    },
-    {
-      "id": "two_california_plaza",
-      "name": "TWO CALIFORNIA PLAZA",
-      "description": "This is the TWO CALIFORNIA PLAZA"
-    },
-    {
-      "id": "at_t_switching_center",
-      "name": "AT&T SWITCHING CENTER",
-      "description": "This is the AT&T SWITCHING CENTER"
-    },
-    {
-      "id": "crypto_com_arena",
-      "name": "CRYPTO.COM ARENA",
-      "description": "This is the CRYPTO.COM ARENA"
-    },
-    {
-      "id": "peacock_theater_and_the_novo",
-      "name": "PEACOCK THEATER & THE NOVO",
-      "description": "This is the PEACOCK THEATER & THE NOVO"
-    },
-    {
-      "id": "city_national_bank",
-      "name": "CITY NATIONAL BANK",
-      "description": "This is the CITY NATIONAL BANK"
-    },
-    {
-      "id": "777_tower",
-      "name": "777 TOWER",
-      "description": "This is the 777 TOWER"
-    },
-    {
-      "id": "tcw_tower",
-      "name": "TCW TOWER",
-      "description": "This is the TCW TOWER"
-    },
-    {
-      "id": "611_place",
-      "name": "611 PLACE",
-      "description": "This is the 611 PLACE"
-    },
-    {
-      "id": "city_national_plaza_twin_towers",
-      "name": "CITY NATIONAL PLAZA TWIN TOWERS",
-      "description": "This is the CITY NATIONAL PLAZA TWIN TOWERS"
-    },
-    {
-      "id": "dodgers_stadium",
-      "name": "Dodgers Stadium",
-      "description": "This is the Dodgers Stadium"
-    },
-    {
-      "id": "california_highway_patrol",
-      "name": "California Highway Patrol",
-      "description": "This is the California Highway Patrol"
-    },
-    {
-      "id": "junction_between_10_110",
-      "name": "Junction between 10 110",
-      "description": "This is the Junction between 10 110"
-    },
-    {
-      "id": "gas_company_tower_deloitte",
-      "name": "Gas Company Tower (Deloitte)",
-      "description": "This is the Gas Company Tower (Deloitte)"
-    },
-    {
-      "id": "2cal",
-      "name": "2CAL",
-      "description": "This is the 2CAL"
-    },
-    {
-      "id": "bank_of_american_plaza",
-      "name": "Bank of America Plaza",
-      "description": "This is the Bank of America Plaza"
-    },
-    {
-      "id": "union_bank_plaza",
-      "name": "Union Bank Plaza",
-      "description": "This is the Union Bank Plaza"
-    },
-    {
-      "id": "figueroa_at_wilshire",
-      "name": "Figueroa at Wilshire",
-      "description": "This is the Figueroa at Wilshire"
-    },
-    {
-      "id": "los_angeles_center_studios",
-      "name": "Los Angeles Center Studios",
-      "description": "This is the Los Angeles Center Studios"
-    },
-    {
-      "id": "westin_bonaventure_hotel",
-      "name": "Westin Bonaventure Hotel",
-      "description": "This is the Westin Bonaventure Hotel"
-    }
-  ]
   }
-}

@@ -6,7 +6,7 @@
         <title>InfoActiveVideo</title>
 
         <link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="video-page-style.css">
+		    <link rel="stylesheet" href="video-page-style.css">
     </head>
 
     <body>
@@ -65,7 +65,7 @@
         </div>
     </body>
 
-    <script src="box.js"></script>
+    <script src="video.js"></script>
     <script>
       // Assuming your JSON file is in the same directory as your HTML file
       fetch('video.json')
@@ -91,6 +91,7 @@
               box.addEventListener("click", function() {
                 var boxID = box.getAttribute("id");
                 var description;
+
                 buildings.forEach(building => {
                   if (building.id.localeCompare(boxID)) {
                     description = building.description;
