@@ -15,7 +15,7 @@ div.video-page-table {
 	margin-top: 0px;
 	margin-left: 2%;
 	margin-right: 2%;
-	width: 95%;
+	width: 100%;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -29,27 +29,23 @@ div.video-page-table .video-column {
 }
 
 div.video-page-table .text-column {
-    width: 40%;
-    /*padding-left: 20px;*/
-	overflow: hidden;
-}
-
-div.player-column {
-  position: relative;
+    flex: 0.4;
+    padding-left: 80px;
 }
 
 div.infobox {
     max-width: 70%;
 }
 
+div.player-column {
+  position: relative;
+}
+
+
 div.player-column video {
   width: auto;
   height: 450px;
   z-index: -1;
-}
-
-div.video-page-table .text-column p {
-	max-width: 85%;
 }
 
 .box-container .box {

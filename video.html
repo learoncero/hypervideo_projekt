@@ -50,7 +50,7 @@
                     We will explain here how the video works and how you can see different kinds of
                     information. There will sometimes also be a link to an external site, which will offer
                     you more information, if you want to look into an item or subject closer. 
-                  </p>
+                  </p>  
                   </br>
                   <p>
                     Here is an example:
@@ -90,6 +90,8 @@
             
             boxes.forEach(box => {
               box.addEventListener("click", function() {
+                event.preventDefault();
+
                 var boxID = box.getAttribute("id");
                 var description;
 
