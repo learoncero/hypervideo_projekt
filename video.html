@@ -73,17 +73,27 @@
           var video = document.getElementById("videoID");
           var boxContainer = document.getElementById("box-container"); 
 
+          let addedBuildings = [];
           video.addEventListener("timeupdate", function() {
             timestamps.forEach(timestamp => {
               if (video.currentTime >= timestamp.start) {
                 timestamp.buildings.forEach(building => {
                   const end = timestamp.start + building.duration;
-                  if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
-                    addBox(building, boxContainer, timestamp.start);
+                  // Check if the building has not been added already
+                  if (!buildingAlreadyAdded(building)) {
+                    if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
+                      addBox(building, boxContainer, timestamp.start);
+                      addedBuildings.push(building);
+                    }
                   }
                 });
               }
             });
+
+            // Function to check if a building has already been added
+            function buildingAlreadyAdded(building) {
+              return addedBuildings.some(addedBuilding => addedBuilding === building);
+            }
 
             const boxes = document.querySelectorAll(".box");
             const infoBox = document.getElementById("infobox");
@@ -110,6 +120,12 @@
               let start = box.getAttribute("data-start");
               if ((video.currentTime >= end) || (video.currentTime <= start)) {
                 boxContainer.removeChild(box.parentNode);
+                addedBuildings.forEach(aB => {
+                  if (aB.buildingId == box.id) {
+                    addedBuildings = addedBuildings.filter(building => building !== aB);
+                    return;
+                  }
+                })
               }
             });
           });

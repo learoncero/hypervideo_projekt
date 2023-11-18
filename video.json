@@ -10,31 +10,49 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 349,
             "y": 244,
             "width": 55,
             "height": 389                
+          },
+          "positionEnd": {
+            "x": 324,
+            "y": 241,
+            "width": 60,
+            "height": 350  
           }
         },
         {
           "buildingId": "bank_of_american_plaza",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 544,
             "y": 367,
             "width": 167,
             "height": 263
+          },
+          "positionEnd": {
+            "x": 448,
+            "y": 371,
+            "width": 190,
+            "height": 270  
           }
         },
         {
           "buildingId": "wells_fargo_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 125,
             "y": 357,
             "width": 171,
             "height": 273
+          },
+          "positionEnd": {
+            "x": 32,
+            "y": 355,
+            "width": 170,
+            "height": 280  
           }
         }
       ]
@@ -45,7 +63,7 @@
         {
           "buildingId": "aon_center",
           "duration": 9,
-          "position": {
+          "positionStart": {
             "x": 506,
             "y": 267,
             "width": 32,
@@ -55,7 +73,7 @@
         {
           "buildingId": "oceanwide_plaza_tower_i",
           "duration": 9,
-          "position": {
+          "positionStart": {
             "x": 318,
             "y": 283,
             "width": 42,
@@ -70,7 +88,7 @@
         {
           "buildingId": "the_ritz_carlton_los_angeles",
           "duration": 9,
-          "position": {
+          "positionStart": {
             "x": 72,
             "y": 302,
             "width": 80,
@@ -80,7 +98,7 @@
         {
           "buildingId": "l_a_live",
           "duration": 9,
-          "position": {
+          "positionStart": {
             "x": 72,
             "y": 496,
             "width": 358,
@@ -95,7 +113,7 @@
         {
           "buildingId": "two_california_plaza",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 557,
             "y": 279,
             "width": 92,
@@ -105,7 +123,7 @@
         {
           "buildingId": "at_t_switching_center",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 424,
             "y": 409,
             "width": 73,
@@ -120,7 +138,7 @@
         {
           "buildingId": "crypto_com_arena",
           "duration": 5,
-          "position": {
+          "positionStart": {
             "x": 380,
             "y": 354,
             "width": 264,
@@ -130,7 +148,7 @@
         {
           "buildingId": "peacock_theater_and_the_novo",
           "duration": 5,
-          "position": {
+          "positionStart": {
             "x": 160,
             "y": 377,
             "width": 168,
@@ -145,7 +163,7 @@
         {
           "buildingId": "city_national_bank",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 360,
             "y": 341,
             "width": 86,
@@ -160,7 +178,7 @@
         {
           "buildingId": "777_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 522,
             "y": 267,
             "width": 44,
@@ -170,7 +188,7 @@
         {
           "buildingId": "tcw_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 658,
             "y": 332,
             "width": 73,
@@ -185,7 +203,7 @@
         {
           "buildingId": "611_place",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 319,
             "y": 406,
             "width": 41,
@@ -195,7 +213,7 @@
         {
           "buildingId": "city_national_plaza_twin_towers",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 356,
             "y": 354,
             "width": 76,
@@ -210,7 +228,7 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 398,
             "y": 317,
             "width": 190,
@@ -225,7 +243,7 @@
         {
           "buildingId": "dodgers_stadium",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 178,
             "y": 435,
             "width": 568,
@@ -240,7 +258,7 @@
         {
           "buildingId": "california_highway_patrol",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 574,
             "y": 513,
             "width": 189,
@@ -255,7 +273,7 @@
         {
           "buildingId": "junction_between_10_110",
           "duration": 5,
-          "position": {
+          "positionStart": {
             "x": 207,
             "y": 296,
             "width": 464,
@@ -270,7 +288,7 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 6,
-          "position": {
+          "positionStart": {
             "x": 465,
             "y": 296,
             "width": 109,
@@ -280,7 +298,7 @@
         {
           "buildingId": "gas_company_tower_deloitte",
           "duration": 6,
-          "position": {
+          "positionStart": {
             "x": 106,
             "y": 496,
             "width": 220,
@@ -295,7 +313,7 @@
         {
           "buildingId": "2cal",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 305,
             "y": 561,
             "width": 517,
@@ -310,7 +328,7 @@
         {
           "buildingId": "union_bank_plaza",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 358,
             "y": 419,
             "width": 68,
@@ -320,7 +338,7 @@
         {
           "buildingId": "figueroa_at_wilshire",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 648,
             "y": 361,
             "width": 61,
@@ -330,7 +348,7 @@
         {
           "buildingId": "los_angeles_center_studios",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 355,
             "y": 597,
             "width": 150,
@@ -345,7 +363,7 @@
         {
           "buildingId": "gas_company_tower_deloitte",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 178,
             "y": 425,
             "width": 172,
@@ -355,7 +373,7 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 388,
             "y": 332,
             "width": 258,
@@ -370,7 +388,7 @@
         {
           "buildingId": "2cal",
           "duration": 8,
-          "position": {
+          "positionStart": {
             "x": 210,
             "y": 547,
             "width": 83,
@@ -380,7 +398,7 @@
         {
           "buildingId": "wells_fargo_tower",
           "duration": 8,
-          "position": {
+          "positionStart": {
             "x": 355,
             "y": 570,
             "width": 89,
@@ -390,7 +408,7 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 8,
-          "position": {
+          "positionStart": {
             "x": 399,
             "y": 404,
             "width": 44,
@@ -400,7 +418,7 @@
         {
           "buildingId": "union_bank_plaza",
           "duration": 8,
-          "position": {
+          "positionStart": {
             "x": 650,
             "y": 498,
             "width": 56,
@@ -410,7 +428,7 @@
         {
           "buildingId": "westin_bonaventure_hotel",
           "duration": 8,
-          "position": {
+          "positionStart": {
             "x": 551,
             "y": 556,
             "width": 82,
@@ -425,7 +443,7 @@
         {
           "buildingId": "figueroa_at_wilshire",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 127,
             "y": 204,
             "width": 277,
@@ -435,7 +453,7 @@
         {
           "buildingId": "city_national_plaza_twin_towers",
           "duration": 1,
-          "position": {
+          "positionStart": {
             "x": 528,
             "y": 298,
             "width": 302,
@@ -450,7 +468,7 @@
         {
           "buildingId": "wedbush_center",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 581,
             "y": 205,
             "width": 241,
@@ -460,7 +478,7 @@
         {
           "buildingId": "tenten_wilshire",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 591,
             "y": 405,
             "width": 239,
@@ -475,7 +493,7 @@
         {
           "buildingId": "arco_tower",
           "duration": 1,
-          "position": {
+          "positionStart": {
             "x": 546,
             "y": 204,
             "width": 279,
@@ -490,7 +508,7 @@
         {
           "buildingId": "city_national_plaza_twin_towers",
           "duration": 2,
-          "position": {
+          "positionStart": {
             "x": 579,
             "y": 450,
             "width": 162,
@@ -500,7 +518,7 @@
         {
           "buildingId": "aon_center",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 241,
             "y": 343,
             "width": 117,
@@ -510,7 +528,7 @@
                   {
           "buildingId": "777_tower",
           "duration": 4,
-          "position": {
+          "positionStart": {
             "x": 434,
             "y": 302,
             "width": 56,
@@ -525,7 +543,7 @@
         {
           "buildingId": "aon_center",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 63,
             "y": 293,
             "width": 72,
@@ -535,7 +553,7 @@
         {
           "buildingId": "611_place",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 183,
             "y": 382,
             "width": 87,
@@ -545,7 +563,7 @@
         {
           "buildingId": "gas_company_tower_deloitte",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 452,
             "y": 337,
             "width": 96,
@@ -555,7 +573,7 @@
         {
           "buildingId": "2cal",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 662,
             "y": 310,
             "width": 87,
@@ -570,7 +588,7 @@
         {
           "buildingId": "777_tower",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 710,
             "y": 234,
             "width": 120,
@@ -580,7 +598,7 @@
         {
           "buildingId": "us_bank_tower",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 303,
             "y": 265,
             "width": 312,
@@ -590,7 +608,7 @@
         {
           "buildingId": "ey_plaza",
           "duration": 3,
-          "position": {
+          "positionStart": {
             "x": 518,
             "y": 329,
             "width": 97,
@@ -605,7 +623,7 @@
         {
           "buildingId": "los_angeles_convention_center",
           "duration": 6,
-          "position": {
+          "positionStart": {
             "x": 406,
             "y": 386,
             "width": 194,
