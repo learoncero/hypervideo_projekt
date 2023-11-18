@@ -73,6 +73,7 @@
         .then(data => {
           const timestamps = data.video.timestamps;
           const buildings = data.video.buildings;
+          console.log(buildings);
           var video = document.getElementById("videoID");
           var boxContainer = document.getElementById("box-container"); 
           var index = 0;
@@ -93,8 +94,9 @@
                 var description;
 
                 buildings.forEach(building => {
-                  if (building.id.localeCompare(boxID)) {
+                  if (building.id == boxID) {
                     description = building.description;
+                    return;
                   }
                 });
 
