@@ -12,6 +12,10 @@ div.video-page-title {
     margin-top: 25px;
     margin-left: 2%;
     margin-right: 45%;
+    text-overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 95%;
 }
 
 div.video-page-title h1{
