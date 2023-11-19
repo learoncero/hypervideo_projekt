@@ -30,7 +30,7 @@ function addBox(building, container, start) {
                 transform: translate(0, 0) scale(1);
             }
             to {
-                transform: translate(${deltaX}px, ${deltaY}px) scale(${scaleX}px, ${scaleY}px);
+                transform: translate(${deltaX}px, ${deltaY}px) scale(${scaleX}, ${scaleY});
             }
         }
     `;
@@ -38,7 +38,13 @@ function addBox(building, container, start) {
     document.styleSheets[1].insertRule(keyframes, 0);
 
     // Update the animation class for the box
-    boxDiv.style.animation = `moveContainer_${building.buildingId} linear infinite`;
+    boxDiv.style.animationName = `moveContainer_${building.buildingId}`;
+    boxDiv.style.animationDuration = `${building.duration}s`;
+    boxDiv.style.animationIterationCount = '1';
+    boxDiv.style.animationTimingFunction = 'linear';
+    boxDiv.style.animationPlayState = 'running';
+
+    boxDiv.classList.add("animate");
 
     container.appendChild(boxLink);
     boxLink.appendChild(boxDiv);

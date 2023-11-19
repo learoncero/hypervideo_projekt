@@ -84,6 +84,7 @@
                     if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
                       addBox(building, boxContainer, timestamp.start);
                       addedBuildings.push(building);
+                      console.log(keyframes);
                     }
                   }
                 });
@@ -114,6 +115,7 @@
                 
                 updateInfoBox(infoBox, description, title);
                 video.pause();
+
               });
 
               let end = box.getAttribute("data-end");
@@ -129,6 +131,30 @@
               }
             });
           });
+
+          let isVideoPlaying = false;
+
+          video.addEventListener("play", function () {
+            isVideoPlaying = true;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+
+          video.addEventListener("pause", function () {
+            isVideoPlaying = false;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+
+          function playOrPauseBoxes(isPlaying) {
+            const boxes = document.querySelectorAll(".box");
+
+            boxes.forEach((box) => {
+              if (isPlaying) {
+                box.style.animationPlayState = "running";
+              } else {
+                box.style.animationPlayState = "paused";
+              }
+            });
+          }
         })
         .catch(error => console.error('Error fetching JSON:', error));
     </script>
