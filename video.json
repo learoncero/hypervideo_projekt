@@ -14,29 +14,29 @@
             "x": 349,
             "y": 244,
             "width": 55,
-            "height": 389                
+            "height": 379
           },
           "positionEnd": {
             "x": 324,
             "y": 241,
-            "width": 60,
-            "height": 350  
+            "width": 58,
+            "height": 345
           }
         },
         {
-          "buildingId": "bank_of_american_plaza",
+          "buildingId": "bank_of_america_plaza",
           "duration": 4,
           "positionStart": {
             "x": 544,
             "y": 367,
             "width": 167,
-            "height": 263
+            "height": 253
           },
           "positionEnd": {
             "x": 448,
             "y": 371,
-            "width": 190,
-            "height": 270  
+            "width": 184,
+            "height": 252
           }
         },
         {
@@ -46,13 +46,13 @@
             "x": 125,
             "y": 357,
             "width": 171,
-            "height": 273
+            "height": 263
           },
           "positionEnd": {
             "x": 32,
             "y": 355,
-            "width": 170,
-            "height": 280  
+            "width": 167,
+            "height": 265
           }
         }
       ]
@@ -67,13 +67,13 @@
             "x": 506,
             "y": 267,
             "width": 32,
-            "height": 170                
+            "height": 170
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 492,
+            "y": 265,
+            "width": 35,
+            "height": 179
           }
         },
         {
@@ -86,10 +86,10 @@
             "height": 146
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 304,
+            "y": 278,
+            "width": 40,
+            "height": 144
           }
         }
       ]
@@ -104,13 +104,13 @@
             "x": 72,
             "y": 302,
             "width": 80,
-            "height": 270                
+            "height": 270
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 32,
+            "y": 318,
+            "width": 31,
+            "height": 233
           }
         },
         {
@@ -120,13 +120,13 @@
             "x": 72,
             "y": 496,
             "width": 358,
-            "height": 144
+            "height": 124
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 32,
+            "y": 496,
+            "width": 297,
+            "height": 124
           }
         }
       ]
@@ -135,23 +135,23 @@
       "start": 30,
       "buildings": [
         {
-          "buildingId": "two_california_plaza",
+          "buildingId": "2cal",
           "duration": 4,
           "positionStart": {
             "x": 557,
             "y": 279,
             "width": 92,
-            "height": 344                
+            "height": 344
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 489,
+            "y": 265,
+            "width": 97,
+            "height": 354
           }
         },
         {
-          "buildingId": "at_t_switching_center",
+          "buildingId": "at_and_t_switching_center",
           "duration": 4,
           "positionStart": {
             "x": 424,
@@ -160,10 +160,10 @@
             "height": 214
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 378,
+            "y": 393,
+            "width": 77,
+            "height": 210
           }
         }
       ]
@@ -178,13 +178,13 @@
             "x": 380,
             "y": 354,
             "width": 264,
-            "height": 185                
+            "height": 185
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 321,
+            "y": 362,
+            "width": 301,
+            "height": 223
           }
         },
         {
@@ -197,10 +197,10 @@
             "height": 122
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 135,
+            "y": 348,
+            "width": 185,
+            "height": 111
           }
         }
       ]
@@ -215,13 +215,13 @@
             "x": 360,
             "y": 341,
             "width": 86,
-            "height": 218                
+            "height": 218
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 361,
+            "y": 327,
+            "width": 83,
+            "height": 191
           }
         }
       ]
@@ -236,13 +236,13 @@
             "x": 522,
             "y": 267,
             "width": 44,
-            "height": 195                
+            "height": 195
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 530,
+            "y": 251,
+            "width": 44,
+            "height": 181
           }
         },
         {
@@ -255,10 +255,10 @@
             "height": 187
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 630,
+            "y": 317,
+            "width": 38,
+            "height": 174
           }
         }
       ]
@@ -273,13 +273,13 @@
             "x": 319,
             "y": 406,
             "width": 41,
-            "height": 108                
+            "height": 108
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 323,
+            "y": 417,
+            "width": 38,
+            "height": 109
           }
         },
         {
@@ -292,10 +292,10 @@
             "height": 113
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 374,
+            "y": 364,
+            "width": 80,
+            "height": 110
           }
         }
       ]
@@ -308,15 +308,15 @@
           "duration": 4,
           "positionStart": {
             "x": 398,
-            "y": 317,
+            "y": 267,
             "width": 190,
-            "height": 347                
+            "height": 347
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 394,
+            "y": 264,
+            "width": 192,
+            "height": 350
           }
         }
       ]
@@ -329,15 +329,15 @@
           "duration": 3,
           "positionStart": {
             "x": 178,
-            "y": 435,
+            "y": 385,
             "width": 568,
-            "height": 184                
+            "height": 184
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 152,
+            "y": 387,
+            "width": 574,
+            "height": 200
           }
         }
       ]
@@ -350,15 +350,15 @@
           "duration": 4,
           "positionStart": {
             "x": 574,
-            "y": 513,
+            "y": 463,
             "width": 189,
-            "height": 144                
+            "height": 144
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 474,
+            "y": 359,
+            "width": 211,
+            "height": 140
           }
         }
       ]
@@ -371,15 +371,15 @@
           "duration": 5,
           "positionStart": {
             "x": 207,
-            "y": 296,
+            "y": 246,
             "width": 464,
-            "height": 316                
+            "height": 316
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 207,
+            "y": 246,
+            "width": 464,
+            "height": 316
           }
         }
       ]
@@ -392,15 +392,15 @@
           "duration": 6,
           "positionStart": {
             "x": 465,
-            "y": 296,
+            "y": 246,
             "width": 109,
-            "height": 403                
+            "height": 373
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 470,
+            "y": 223,
+            "width": 80,
+            "height": 120
           }
         },
         {
@@ -408,15 +408,15 @@
           "duration": 6,
           "positionStart": {
             "x": 106,
-            "y": 496,
+            "y": 446,
             "width": 220,
-            "height": 202
+            "height": 172
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 179,
+            "y": 383,
+            "width": 154,
+            "height": 192
           }
         }
       ]
@@ -429,15 +429,15 @@
           "duration": 4,
           "positionStart": {
             "x": 305,
-            "y": 561,
+            "y": 511,
             "width": 517,
-            "height": 139                
+            "height": 109
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 358,
+            "y": 370,
+            "width": 387,
+            "height": 242
           }
         }
       ]
@@ -450,15 +450,15 @@
           "duration": 4,
           "positionStart": {
             "x": 358,
-            "y": 419,
+            "y": 369,
             "width": 68,
-            "height": 145                
+            "height": 145
           },
           "positionEnd": {
-            "x": 399,
+            "x": 244,
             "y": 382,
-            "width": 200,
-            "height": 190              
+            "width": 72,
+            "height": 154
           }
         },
         {
@@ -466,15 +466,15 @@
           "duration": 4,
           "positionStart": {
             "x": 648,
-            "y": 361,
+            "y": 311,
             "width": 61,
-            "height": 182                
+            "height": 182
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 577,
+            "y": 327,
+            "width": 60,
+            "height": 204
           }
         },
         {
@@ -482,15 +482,15 @@
           "duration": 4,
           "positionStart": {
             "x": 355,
-            "y": 597,
+            "y": 547,
             "width": 150,
-            "height": 100                
+            "height": 70
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 31,
+            "y": 562,
+            "width": 164,
+            "height": 58
           }
         }
       ]
@@ -503,15 +503,15 @@
           "duration": 3,
           "positionStart": {
             "x": 178,
-            "y": 425,
+            "y": 375,
             "width": 172,
-            "height": 264                
+            "height": 234
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 332,
+            "y": 327,
+            "width": 83,
+            "height": 150
           }
         },
         {
@@ -519,15 +519,15 @@
           "duration": 3,
           "positionStart": {
             "x": 388,
-            "y": 332,
+            "y": 283,
             "width": 258,
-            "height": 365               
+            "height": 335
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 430,
+            "y": 303,
+            "width": 252,
+            "height": 317
           }
         }
       ]
@@ -540,15 +540,15 @@
           "duration": 8,
           "positionStart": {
             "x": 210,
-            "y": 547,
+            "y": 497,
             "width": 83,
-            "height": 118                
+            "height": 118
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 149,
+            "y": 526,
+            "width": 117,
+            "height": 122
           }
         },
         {
@@ -556,15 +556,15 @@
           "duration": 8,
           "positionStart": {
             "x": 355,
-            "y": 570,
+            "y": 520,
             "width": 89,
-            "height": 124               
+            "height": 94
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 306,
+            "y": 557,
+            "width": 135,
+            "height": 59
           }
         },
         {
@@ -572,15 +572,15 @@
           "duration": 8,
           "positionStart": {
             "x": 399,
-            "y": 404,
+            "y": 354,
             "width": 44,
-            "height": 158                
+            "height": 158
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 404,
+            "y": 359,
+            "width": 53,
+            "height": 183
           }
         },
         {
@@ -588,15 +588,15 @@
           "duration": 8,
           "positionStart": {
             "x": 650,
-            "y": 498,
+            "y": 448,
             "width": 56,
-            "height": 120               
+            "height": 120
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 719,
+            "y": 479,
+            "width": 73,
+            "height": 143
           }
         },
         {
@@ -604,15 +604,15 @@
           "duration": 8,
           "positionStart": {
             "x": 551,
-            "y": 556,
+            "y": 506,
             "width": 82,
-            "height": 71               
+            "height": 71
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 591,
+            "y": 552,
+            "width": 106,
+            "height": 95
           }
         }
       ]
@@ -627,13 +627,13 @@
             "x": 127,
             "y": 204,
             "width": 277,
-            "height": 309                
+            "height": 309
           },
           "positionEnd": {
             "x": 399,
             "y": 382,
             "width": 200,
-            "height": 190              
+            "height": 190
           }
         },
         {
@@ -643,13 +643,13 @@
             "x": 528,
             "y": 298,
             "width": 302,
-            "height": 341               
+            "height": 311
           },
           "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190              
+            "x": 565,
+            "y": 533,
+            "width": 265,
+            "height": 90
           }
         }
       ]
@@ -664,13 +664,13 @@
             "x": 581,
             "y": 205,
             "width": 250,
-            "height": 200                
+            "height": 200
           },
           "positionEnd": {
             "x": 180,
             "y": 205,
             "width": 270,
-            "height": 190                
+            "height": 190
           }
         },
         {
@@ -680,13 +680,13 @@
             "x": 591,
             "y": 405,
             "width": 245,
-            "height": 250               
+            "height": 210
           },
           "positionEnd": {
             "x": 39,
             "y": 391,
             "width": 215,
-            "height": 260                
+            "height": 220
           }
         }
       ]
@@ -701,13 +701,13 @@
             "x": 546,
             "y": 204,
             "width": 280,
-            "height": 450                
+            "height": 420
           },
           "positionEnd": {
             "x": 546,
             "y": 204,
             "width": 280,
-            "height": 450               
+            "height": 420
           }
         }
       ]
@@ -722,13 +722,13 @@
             "x": 579,
             "y": 450,
             "width": 165,
-            "height": 203                
+            "height": 173
           },
           "positionEnd": {
             "x": 561,
             "y": 451,
             "width": 135,
-            "height": 200                
+            "height": 170
           }
         },
         {
@@ -738,29 +738,29 @@
             "x": 241,
             "y": 343,
             "width": 120,
-            "height": 310               
+            "height": 280
           },
           "positionEnd": {
             "x": 244,
             "y": 347 ,
             "width": 110,
-            "height": 305                
+            "height": 275
           }
         },
-                  {
+        {
           "buildingId": "777_tower",
           "duration": 4,
           "positionStart": {
             "x": 434,
             "y": 302,
             "width": 60,
-            "height": 175                
+            "height": 175
           },
           "positionEnd": {
             "x": 409,
             "y": 299,
             "width": 55,
-            "height": 160                
+            "height": 160
           }
         }
       ]
@@ -775,13 +775,13 @@
             "x": 303,
             "y": 265,
             "width": 315,
-            "height": 389                
+            "height": 359
           },
           "positionEnd": {
             "x": 303,
             "y": 265,
             "width": 315,
-            "height": 389              
+            "height": 359
           }
         }
       ]
@@ -796,13 +796,13 @@
             "x": 63,
             "y": 293,
             "width": 75,
-            "height": 300                
+            "height": 300
           },
           "positionEnd": {
             "x": 68,
             "y": 291,
             "width": 75,
-            "height": 275              
+            "height": 275
           }
         },
         {
@@ -812,13 +812,13 @@
             "x": 183,
             "y": 382,
             "width": 90,
-            "height": 250               
+            "height": 230
           },
           "positionEnd": {
             "x": 174,
             "y": 381,
             "width": 85,
-            "height": 225              
+            "height": 205
           }
         },
         {
@@ -828,13 +828,13 @@
             "x": 452,
             "y": 337,
             "width": 100,
-            "height": 305               
+            "height": 275
           },
           "positionEnd": {
             "x": 440,
             "y": 330,
             "width": 105,
-            "height": 310              
+            "height": 280
           }
         },
         {
@@ -844,13 +844,13 @@
             "x": 662,
             "y": 310,
             "width": 90,
-            "height": 275               
+            "height": 275
           },
           "positionEnd": {
             "x": 674,
             "y": 308,
             "width": 90,
-            "height": 285              
+            "height": 285
           }
         }
       ]
@@ -865,13 +865,13 @@
             "x": 680,
             "y": 230,
             "width": 160,
-            "height": 385                
+            "height": 385
           },
           "positionEnd": {
             "x": 620,
             "y": 235,
             "width": 100,
-            "height": 350              
+            "height": 350
           }
         },
         {
@@ -881,13 +881,13 @@
             "x": 350,
             "y": 260,
             "width": 75,
-            "height": 150               
+            "height": 150
           },
           "positionEnd": {
             "x": 341,
             "y": 257,
             "width": 50,
-            "height": 120              
+            "height": 120
           }
         },
         {
@@ -897,13 +897,13 @@
             "x": 518,
             "y": 329,
             "width": 100,
-            "height": 270               
+            "height": 270
           },
           "positionEnd": {
             "x": 468,
             "y": 307,
             "width": 90,
-            "height": 230              
+            "height": 230
           }
         }
       ]
@@ -918,13 +918,13 @@
             "x": 406,
             "y": 386,
             "width": 200,
-            "height": 180                
+            "height": 180
           },
           "positionEnd": {
             "x": 399,
             "y": 382,
             "width": 200,
-            "height": 190              
+            "height": 190
           }
         }
       ]
@@ -933,83 +933,78 @@
   "buildings": [
     {
       "id": "us_bank_tower",
-      "name": "US BANK TOWER",
-      "description": "This is the US BANK TOWER"
+      "name": "U.S. Bank Tower",
+      "description": "U.S. Bank Tower, known locally as the Library Tower and formerly as the First Interstate Bank World Center, is a 1,018-foot (310.3m) skyscraper in downtown Los Angeles, California. It is the second-tallest building in Los Angeles.\n\n1. Name: U.S. Bank Tower\n\n2. Location: 633 West Fifth Street, Los Angeles, California, USA.\n\n3. Height: The U.S. Bank Tower stands at 1,018 feet (310 meters), making it the tallest building in California and the 12th tallest in the United States as of my knowledge cutoff in January 2022.\n\n4. Architect: Designed by architect Henry N. Cobb of the architectural firm Pei Cobb Freed & Partners.\n\n5. Construction: The building was completed in 1989 and opened to the public in 1990. It was initially known as the Library Tower and later renamed the U.S. Bank Tower after U.S. Bancorp."
     },
     {
-      "id": "bank_of_american_plaza",
-      "name": "BANK OF AMERICAN PLAZA",
-      "description": "This is the BANK OF AMERICAN PLAZA"
+      "id": "bank_of_america_plaza",
+      "name": "Bank of America Plaza",
+      "description": "Bank of America Plaza, formerly Security Pacific Plaza, is a 55-story, 224.03m (735.0 ft) class-A office skyscraper on Bunker Hill, Los Angeles, California. It was completed in 1974 with the headquarters of Security Pacific National Bank, Capital Group Companies and Sheppard, Mullin, Richter & Hampton as its main tenants. The tower is the fifth tallest building in Los Angeles, and the 92nd-tallest building in the United States. Featured in several motion pictures, such as being used as the fictional headquarters for Mattel in the film Barbie. Its plaza area was also filmed as that of the adjacent \"Peerless Building\" to the Glass Tower in The Towering Inferno (which was set in San Francisco), as well as the lawyer's office in the film Pretty Woman, and as Tex Richman's office headquarters in The Muppets."
     },
     {
       "id": "wells_fargo_tower",
-      "name": "WELLS FARGO TOWER",
-      "description": "This is the WELLS FARGO TOWER"
+      "name": "Wells Fargo Tower",
+      "description": "Wells Fargo Center is a twin tower skyscraper complex in Downtown Los Angeles on Bunker Hill, in Los Angeles, California. It comprises South and North towers, which are joined by a three-story glass atrium. Wells Fargo Tower (Tower I), at 220m (720 ft) it is the tallest building of the complex. It has 54 floors and it is the 8th tallest building in Los Angeles, and the 92nd-tallest building in the United States. When it opened in 1983, it was known as the Crocker Tower, named after San Francisco-based Crocker National Bank. Crocker merged with Wells Fargo in 1986."
     },
     {
       "id": "aon_center",
-      "name": "AON CENTER",
-      "description": "This is the AON CENTER"
+      "name": "Aon Center",
+      "description": "Aon Center is a 62-story, 858 ft (262m) Modernist office skyscraper at 707 Wilshire Boulevard in downtown Los Angeles, California. Upon its completion in 1973, the building was the tallest in the world outside of New York and Chicago. It remained the tallest building in Los Angeles until 1989, when Library Tower (now U.S. Bank Tower) was completed. Between 1998 and 2001, there were no logos on the building.\n\n 1. Location: The Aon Center is situated in downtown Los Angeles, California.\n\n21. Height: The Aon Center in Los Angeles is a prominent skyscraper with a height of approximately 858 feet (261 meters). It is one of the tallest buildings in the city.\n\n3. Architecture: The building features modern architectural design and is characterized by its sleek and distinctive appearance.\n\n4. Function: The Aon Center is a commercial office building, and it serves as a hub for various businesses and offices."
     },
     {
       "id": "oceanwide_plaza_tower_i",
-      "name": "OCEANWIDE PLAZA TOWER I",
-      "description": "This is the OCEANWIDE PLAZA TOWER I"
+      "name": "Oceanwide Plaza Tower I",
+      "description": "Oceanwide Plaza is a partially-completed residential and retail complex composed of three towers in downtown Los Angeles, California, across the street from Crypto.com Arena and the Los Angeles Convention Center. Tower one will feature an 184-room five-star Park Hyatt hotel and 164 Park Hyatt serviced condo residences, a live-in hotel option. Towers two and three will have 504 residential condominiums. They will reach a total of 530 ft; 40 floors in height. When completed, they will become the 11th and 21st tallest buildings in Los Angeles. The Park Hyatt project marks the luxury brand's first hotel and branded residences on the West Coast. Location:\n\n1. Address: 1188 S. Figueroa Street, Los Angeles, CA 90015, USA. Situated in the South Park neighborhood of downtown Los Angeles.\n 2. Developer: The project is developed by Oceanwide Holdings, a Chinese conglomerate with interests in real estate, finance, and energy.\n 3. Components: Oceanwide Plaza is a multi-tower development featuring residential, hotel, and retail components. The project includes three high-rise towers.\n4. Towers: The development consists of three towers: The Park Hyatt Hotel Tower: This tower houses the luxury Park Hyatt hotel. The Residences Tower: Features condominiums and apartments. The Collection: A retail and amenity space.\n 5. Hotel: The Park Hyatt Hotel Tower includes a high-end hotel with luxury accommodations and amenities."
     },
     {
       "id": "the_ritz_carlton_los_angeles",
-      "name": "THE RITZ-CARLTON LOS ANGELES",
-      "description": "This is the THE RITZ-CARLTON LOS ANGELES"
+      "name": "The Ritz-Carlton Los Angeles",
+      "description": "The centerpiece of the district is a 54-story, 1,001-room two-hotel hybrid tower, constructed above the parking lot directly north of the Staples Center. The Ritz-Carlton Hotel Company, LLC is an American multinational company that operates the luxury hotel chain known as The Ritz-Carlton. The company has 108 luxury hotels and resorts in 30 countries and territories with 29,158 rooms, in addition to 46 hotels with 8,755 rooms planned for the future."
     },
     {
       "id": "l_a_live",
       "name": "L.A. LIVE",
-      "description": "This is the L.A. LIVE"
+      "description": "L.A. Live is an entertainment complex in the South Park District of Downtown Los Angeles, California. It is adjacent to the Crypto.com Arena and Los Angeles Convention Center.\n\nL.A. Live was developed by Anschutz Entertainment Group (AEG) (which Anschutz is based in and L.A. Live is the flagship of), Wachovia Corp, Azteca Corp, investment firm MacFarlane Partners, and with tax deferments paid by Los Angeles taxpayers. It cost approximately US$2.5 billion to build. The architectural firm responsible for the master plan and phase two buildings was Baltimore-based RTKL Associates. \n 1. Name: L.A. Live\n\n 2. Location: 800 W Olympic Blvd, Los Angeles, CA 90015, USA\n\n 3. Description:\nL.A. Live is a bustling entertainment and sports district that features a variety of attractions, including sports and music venues, restaurants, hotels, and theaters. It is adjacent to the Staples Center and the Los Angeles Convention Center, making it a central hub for entertainment and events in downtown Los Angeles.\n\nKey Components:\n\nStaples Center: A major sports and entertainment arena that hosts concerts, sporting events, and other live performances. It is the home arena for the Los Angeles Lakers and the Los Angeles Clippers NBA teams, as well as the Los Angeles Kings NHL team.\n\nMicrosoft Theater: A popular music and entertainment venue with a seating capacity of over 7,000. It hosts concerts, award shows, and other live events.\n\nThe Novo: A smaller concert venue adjacent to the Microsoft Theater, suitable for more intimate performances.\n\nRegal Cinemas L.A. Live: A multi-screen movie theater offering the latest film releases.\n\nJW Marriott Los Angeles L.A. Live and The Ritz-Carlton, Los Angeles: Luxurious hotels that provide accommodation options for visitors to the area.\n\nRestaurants and Nightlife: L.A. Live features a variety of dining options, including restaurants, bars, and clubs, providing a diverse culinary experience."
     },
     {
-      "id": "two_california_plaza",
-      "name": "TWO CALIFORNIA PLAZA",
-      "description": "This is the TWO CALIFORNIA PLAZA"
-    },
-    {
-      "id": "at_t_switching_center",
-      "name": "AT&T SWITCHING CENTER",
-      "description": "This is the AT&T SWITCHING CENTER"
+      "id": "at_and_t_switching_center",
+      "name": "AT&T Switching Center",
+      "description": "The AT&T Madison Complex Tandem Office is a 17-story, 79m (259 ft) building in Los Angeles, California, completed in 1961. With its microwave tower, used through 1993, bringing the overall height to 137m (449 ft), it is the 29th tallest building in Los Angeles. The building serves 1.3 million phone lines in area code 213, and other Los Angeles area codes, for foreign long-distance calling."
     },
     {
       "id": "crypto_com_arena",
-      "name": "CRYPTO.COM ARENA",
-      "description": "This is the CRYPTO.COM ARENA"
+      "name": "Crypto.com Arena",
+      "description": "Crypto.com Arena is a multi-purpose indoor arena in Downtown Los Angeles. The main attraction of the L.A. Live development, it is located next to the Los Angeles Convention Center complex along Figueroa Street. The arena opened on October 17, 1999; it was previously known as Staples Center until December 2021 when Crypto.com acquired the naming rights. The arena is the flagship attraction of locally-based Anschutz Entertainment Group. Crypto.com Arena has 950,000 square feet (88,257.9 m2) of total space, with a 94-foot (28.7 m) by 200-foot (61.0 m) arena floor. It stands 150 feet (45.7 m) tall. The arena seats up to 19,067 for basketball, 18,145 for ice hockey, and around 20,000 for concerts or other sporting events. Name: Crypto.com Arena\n\nLocation: 1111 S Figueroa St, Los Angeles, CA 90015, USA\n\nOwnership: The arena is owned and operated by the Anschutz Entertainment Group (AEG).\n\nTenants:\n\nLos Angeles Lakers (NBA)\nLos Angeles Clippers (NBA)\nLos Angeles Kings (NHL)"
     },
     {
       "id": "peacock_theater_and_the_novo",
-      "name": "PEACOCK THEATER & THE NOVO",
-      "description": "This is the PEACOCK THEATER & THE NOVO"
+      "name": "Peacock Theater & The Novo",
+      "description": "Peacock Theater hosts over 120 music, family, dance and comedy acts, award shows, televised productions, conventions and product launches with over 500,000 guests passing through the doors annually. The 7,100-seat theater offers guests mid-sized intimacy, with no seat further from the stage than 220 feet. Peacock Theater offers 12,000 square feet of VIP & hospitality areas, 10 dressing rooms and state of the art technology making it is a favorite indoor venue for performers and fans alike. The Novo (formerly Club Nokia) is an indoor club located at L.A. Live in downtown Los Angeles, California. The club's seating capacity is 2,400. The venue opened on November 8, 2008, as \"Club Nokia\" with shows held by the musician Beck over the first two nights. Its name was changed in March 2016, several months after the neighboring Nokia Theater's name was changed to the Microsoft Theater. The theater continues to be booked by Goldenvoice."
     },
     {
       "id": "city_national_bank",
-      "name": "CITY NATIONAL BANK",
-      "description": "This is the CITY NATIONAL BANK"
+      "name": "City National Bank",
+      "description": "City National Bank (CNB) is a bank headquartered at City National Plaza in Los Angeles, California. CNB is a subsidiary of the Toronto-based Royal Bank of Canada and it is the 35th largest bank in the United States as of March 31, 2022.\n\nCNB has been dubbed the \"Bank to the Stars\" due to its extensive relationships with numerous Hollywood entertainment industry clients, and deals with many exclusive and premier clients from various media, including television, film, theater and the arts. Name: City National Bank\n\nLocation: Based in Los Angeles, California, with branches and offices in various locations.\n\nHistory: City National Bank was founded in 1954. It has a long history of providing financial services, particularly catering to high-net-worth individuals, entrepreneurs, and businesses.\n\nOwnership: City National Bank was a subsidiary of the Royal Bank of Canada (RBC). RBC acquired City National Bank in 2015.\n\nServices:\n\nCity National Bank offers a range of financial services, including personal banking, business banking, wealth management, and private banking.\nThe bank is known for its focus on serving affluent clients and providing personalized financial solutions."
     },
     {
       "id": "777_tower",
-      "name": "777 TOWER",
-      "description": "This is the 777 TOWER"
+      "name": "777 Tower",
+      "description": "777 Tower (originally known as Citicorp Center and also known as Pelli Tower) is a 221 m (725 ft), 52-story high-rise office building designed by César Pelli located at 777 South Figueroa Street in the Financial District of Downtown Los Angeles, California.\n\nDeveloped in 1991 by South Figueroa Plaza Associates as Citicorp Plaza, the building spans approximately 1,025,000 sq ft (95,200 m2) and has a three-story Italian marble lobby. Height:\n\nTotal height\nNumber of floors\nArchitect:\n\nArchitectural firm responsible for the design\nConstruction Timeline:\n\nStart date\nCompletion date\nBuilding Features:\n\nArchitectural style\nNotable design elements\nUse of the building (e.g., residential, commercial, mixed-use)\nOwnership/Management:\n\nCurrent owner\nProperty management company"
     },
     {
       "id": "tcw_tower",
-      "name": "TCW TOWER",
-      "description": "This is the TCW TOWER"
+      "name": "TCW Tower",
+      "description": "The TCW Tower is a 37-story, 157.58 m (517.0 ft) skyscraper in Los Angeles, California. It is the 19th tallest building in the city. The building was completed in 1990 when it and its designer, Albert C. Martin & Associates, were awarded the Outstanding Structural Design Award by the Los Angeles Tall Building Structural Design Council."
     },
     {
       "id": "611_place",
-      "name": "611 PLACE",
-      "description": "This is the 611 PLACE"
+      "name": "611 Place",
+      "description": "611 Place is a 42-story, 189 m (620 ft) skyscraper at 611 West 6th Street in Downtown Los Angeles, California, designed by William L. Pereira & Associates and completed in 1969. The building was commissioned by the now-defunct Crocker Citizen's Bank, and served as its Southern California headquarters until 1983, when it moved to Crocker Center, now Wells Fargo Center (Los Angeles). It was subsequently bought by AT&T. It was the tallest building in Los Angeles upon completion, and the first building to surpass Los Angeles City Hall in terms of structural height"
     },
     {
       "id": "city_national_plaza_twin_towers",
-      "name": "CITY NATIONAL PLAZA TWIN TOWERS",
-      "description": "This is the CITY NATIONAL PLAZA TWIN TOWERS"
+      "name": "City National Plaza twin towers",
+      "description": "City National Plaza is a twin tower skyscraper complex on South Flower Street in western Downtown Los Angeles, California, United States. It was originally named ARCO Plaza upon opening in 1972. ARCO Plaza opened with a 220,000 sq ft (20,000 m2) shopping center on two levels which gained attention for the novelty of a shopping center within an office tower complex and for its sleek design of brick walkways, tiled and mirrored escalator wells and fresh flowers."
     },
     {
       "id": "dodgers_stadium",
@@ -1035,11 +1030,6 @@
       "id": "2cal",
       "name": "2CAL",
       "description": "This is the 2CAL"
-    },
-    {
-      "id": "bank_of_american_plaza",
-      "name": "Bank of America Plaza",
-      "description": "This is the Bank of America Plaza"
     },
     {
       "id": "union_bank_plaza",

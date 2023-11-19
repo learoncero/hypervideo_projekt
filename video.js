@@ -30,7 +30,7 @@ function addBox(building, container, start) {
                 transform: translate(0, 0) scale(1);
             }
             to {
-                transform: translate(${deltaX}px, ${deltaY}px) scale(${scaleX}px, ${scaleY}px);
+                transform: translate(${deltaX}px, ${deltaY}px) scale(${scaleX}, ${scaleY});
             }
         }
     `;
