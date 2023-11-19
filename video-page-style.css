@@ -61,6 +61,10 @@ div.infobox h2 {
     margin-bottom: 15px;
 }
 
+div.infobox img {
+    width: 150px;
+}
+
 .box-container .box {
     border: 3px solid greenyellow;
     display: block;
