@@ -39,6 +39,7 @@ function addBox(building, container, start) {
 
     // Update the animation class for the box
     boxDiv.style.animation = `moveContainer_${building.buildingId} linear infinite`;
+    boxDiv.style.animationDuration = `${building.duration}s`
 
     container.appendChild(boxLink);
     boxLink.appendChild(boxDiv);

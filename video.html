@@ -84,6 +84,7 @@
                     if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
                       addBox(building, boxContainer, timestamp.start);
                       addedBuildings.push(building);
+                      console.log(keyframes);
                     }
                   }
                 });
@@ -123,6 +124,7 @@
                 addedBuildings.forEach(aB => {
                   if (aB.buildingId == box.id) {
                     addedBuildings = addedBuildings.filter(building => building !== aB);
+                  
                     return;
                   }
                 })
