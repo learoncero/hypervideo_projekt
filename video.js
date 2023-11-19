@@ -38,8 +38,12 @@ function addBox(building, container, start) {
     document.styleSheets[1].insertRule(keyframes, 0);
 
     // Update the animation class for the box
-    boxDiv.style.animation = `moveContainer_${building.buildingId} linear infinite`;
-    boxDiv.style.animationDuration = `${building.duration}s`
+    boxDiv.style.animationName = `moveContainer_${building.buildingId}`;
+    boxDiv.style.animationDuration = `${building.duration}s`;
+    boxDiv.style.animationIterationCount = '1';
+    boxDiv.style.animationTimingFunction = 'linear';
+
+    boxDiv.classList.add("animate");
 
     container.appendChild(boxLink);
     boxLink.appendChild(boxDiv);
