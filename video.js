@@ -42,6 +42,7 @@ function addBox(building, container, start) {
     boxDiv.style.animationDuration = `${building.duration}s`;
     boxDiv.style.animationIterationCount = '1';
     boxDiv.style.animationTimingFunction = 'linear';
+    boxDiv.style.animationPlayState = 'running';
 
     boxDiv.classList.add("animate");
 
