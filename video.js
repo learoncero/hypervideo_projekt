@@ -44,18 +44,19 @@ function addBox(building, container, start) {
     boxDiv.style.animationTimingFunction = 'linear';
     boxDiv.style.animationPlayState = 'running';
 
-    boxDiv.classList.add("animate");
-
     container.appendChild(boxLink);
     boxLink.appendChild(boxDiv);
 }
 
-function updateInfoBox(infoBox, description, title) {
+function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
+    var imgElement = infoBox.querySelector('img');
     var pElement = infoBox.querySelector('p');
     
     h2Element.innerHTML = title;
     pElement.innerHTML = description;
+    imgElement.src = image;
+    imgElement.alt = title + "Image";
 }
 
 function createElement(elementType) {

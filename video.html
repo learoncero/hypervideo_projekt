@@ -44,6 +44,7 @@
               <td class="text-column">
                 <div id="infobox" class="infobox" style="border: 3px blue">
                   <h2>Tutorial</h2>
+                  <img src="" alt="">
                   <p style="border: 3px red">
                     Here is all the info needed to use this site.
                     We will explain here how the video works and how you can see different kinds of
@@ -104,16 +105,18 @@
                 var boxID = box.getAttribute("id");
                 var description;
                 var title;
+                var image;
 
                 buildings.forEach(building => {
                   if (building.id == boxID) {
                     description = building.description;
                     title = building.name;
+                    image = building.image;
                     return;
                   }
                 });
                 
-                updateInfoBox(infoBox, description, title);
+                updateInfoBox(infoBox, description, title, image);
                 video.pause();
 
               });
