@@ -62,3 +62,26 @@ function updateInfoBox(infoBox, description, title, image) {
 function createElement(elementType) {
     return document.createElement(elementType);
 }
+
+// Function to remove keyframes rule by buildingId name
+function removeKeyframesRule(buildingId) {
+    const styleSheet = document.styleSheets[1]; // Update index if needed
+
+    // Find the index of the rule with the specified name
+    for (let i = 0; i < styleSheet.cssRules.length; i++) {
+        const rule = styleSheet.cssRules[i];
+        if (rule.type === CSSRule.KEYFRAMES_RULE && rule.name === `moveContainer_${buildingId}`){
+            // Delete the rule at the found index
+            styleSheet.deleteRule(i);
+            break;
+        }
+    }
+}
+
+// Function to log keyframes for a specific animation name
+function logKeyframes(styleSheet) {
+    for (let i = 0; i < styleSheet.cssRules.length; i++) {
+        const rule = styleSheet.cssRules[i];
+            console.log(rule.cssText);
+    }
+}
