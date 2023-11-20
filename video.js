@@ -50,16 +50,13 @@ function addBox(building, container, start) {
 
 function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
+    var imgElement = infoBox.querySelector('img');
     var pElement = infoBox.querySelector('p');
-    var imgElement = createElement('img');
     
     h2Element.innerHTML = title;
     pElement.innerHTML = description;
     imgElement.src = image;
-    imgElement.alt = title;
-
-    // Append the img element after the h2 element
-    infoBox.insertBefore(imgElement, pElement);
+    imgElement.alt = title + "Image";
 }
 
 function createElement(elementType) {
