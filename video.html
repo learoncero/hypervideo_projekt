@@ -2,14 +2,16 @@
 <html lang="de">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>InfoActiveVideo</title>
 
         <link rel="stylesheet" href="style.css">
+		    <link rel="stylesheet" href="video-page-style.css">
     </head>
 
     <body>
-        <div class="navbar">
+        <header>
+          <div class="navbar">
             <nav>
                 <a href="index.html">Home</a>
                 <a class="active" href="video.html">Video</a>
@@ -20,44 +22,140 @@
                     <img src="logo_withName.png" alt="Logo">
                 </a>
             </div>
-        </div>
-
-		    <div class="video_page_title">
+          </div>
+        </header>
+		    <div class="video-page-title">
             <h1>Los Angeles, an aerial perspective from a helicopter</h1>
             <br>
         </div>
 
-        <div class="video_page_table">
+        <div class="video-page-table">
           <table>
             <tr>
-              <td>
-                <div class="player_column">
-                  <video autoplay controls nopictureinpicture controlslist="nofullscreen">
+              <td class="video-column">
+                <div class="player-column">
+                  <video id="videoID" controls nopictureinpicture controlslist="nofullscreen">
                     <source src="video/LosAngelesArial.mp4" type="video/mp4">
                     <source src="video/LosAngelesArial.ogg" type="video/ogg">
                     Your browser does not support the video tag.
-                  </video>	
+                  </video>
                 </div> 										
               </td>
-              <td>
-                <div class="infobox">
+              <td class="text-column">
+                <div id="infobox" class="infobox" style="border: 3px blue">
                   <h2>Tutorial</h2>
-                  </br>
-                  <p>
+                  <p style="border: 3px red">
                     Here is all the info needed to use this site.
                     We will explain here how the video works and how you can see different kinds of
                     information. There will sometimes also be a link to an external site, which will offer
                     you more information, if you want to look into an item or subject closer. 
-                  </p>
-                  </br>
-                  <p>
+                    <br><br>
                     Here is an example:
                     <a href="http://www.google.at">Search for anything</a>
-                  </p>
+                  </p>  
                 </div>
               </td>
             </tr>
           </table>
         </div>
+        <div class="box-container" id="box-container">
+        </div>
     </body>
+
+    <script src="video.js"></script>
+    <script>
+      // Assuming your JSON file is in the same directory as your HTML file
+      fetch('video.json')
+        .then(response => response.json())
+        .then(data => {
+          const timestamps = data.video.timestamps;
+          const buildings = data.video.buildings;
+          var video = document.getElementById("videoID");
+          var boxContainer = document.getElementById("box-container"); 
+
+          let addedBuildings = [];
+          video.addEventListener("timeupdate", function() {
+            timestamps.forEach(timestamp => {
+              if (video.currentTime >= timestamp.start) {
+                timestamp.buildings.forEach(building => {
+                  const end = timestamp.start + building.duration;
+                  // Check if the building has not been added already
+                  if (!buildingAlreadyAdded(building)) {
+                    if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
+                      addBox(building, boxContainer, timestamp.start);
+                      addedBuildings.push(building);
+                      console.log(keyframes);
+                    }
+                  }
+                });
+              }
+            });
+
+            // Function to check if a building has already been added
+            function buildingAlreadyAdded(building) {
+              return addedBuildings.some(addedBuilding => addedBuilding === building);
+            }
+
+            const boxes = document.querySelectorAll(".box");
+            const infoBox = document.getElementById("infobox");
+            
+            boxes.forEach(box => {
+              box.addEventListener("click", function() {
+                var boxID = box.getAttribute("id");
+                var description;
+                var title;
+
+                buildings.forEach(building => {
+                  if (building.id == boxID) {
+                    description = building.description;
+                    title = building.name;
+                    return;
+                  }
+                });
+                
+                updateInfoBox(infoBox, description, title);
+                video.pause();
+
+              });
+
+              let end = box.getAttribute("data-end");
+              let start = box.getAttribute("data-start");
+              if ((video.currentTime >= end) || (video.currentTime <= start)) {
+                boxContainer.removeChild(box.parentNode);
+                addedBuildings.forEach(aB => {
+                  if (aB.buildingId == box.id) {
+                    addedBuildings = addedBuildings.filter(building => building !== aB);
+                    return;
+                  }
+                })
+              }
+            });
+          });
+
+          let isVideoPlaying = false;
+
+          video.addEventListener("play", function () {
+            isVideoPlaying = true;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+
+          video.addEventListener("pause", function () {
+            isVideoPlaying = false;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+
+          function playOrPauseBoxes(isPlaying) {
+            const boxes = document.querySelectorAll(".box");
+
+            boxes.forEach((box) => {
+              if (isPlaying) {
+                box.style.animationPlayState = "running";
+              } else {
+                box.style.animationPlayState = "paused";
+              }
+            });
+          }
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+    </script>
 </html>

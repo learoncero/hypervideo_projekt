@@ -1,0 +1,74 @@
+@keyframes moveContainer {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+    to {
+        transform: translate(Xpx, Ypx) scale(S);
+    }
+}
+
+div.video-page-title {
+	position: relative;
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 45%;
+    text-overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 95%;
+}
+
+div.video-page-title h1{
+	margin-bottom: 0px;
+}
+
+div.video-page-table {
+    display: flex;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+div.video-page-table td {
+	vertical-align: top;
+}
+
+div.video-page-table .video-column {
+    position: relative;
+}
+
+div.video-page-table .text-column {
+    flex: 0.4;
+    padding-left: 80px;
+}
+
+div.infobox {
+    max-width: 70%;
+}
+
+div.player-column {
+  position: relative;
+}
+
+
+div.player-column video {
+  width: auto;
+  height: 450px;
+  z-index: -1;
+}
+
+div.infobox h2 {
+    margin-bottom: 15px;
+}
+
+.box-container .box {
+    border: 3px solid greenyellow;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
