@@ -128,6 +128,7 @@
                 addedBuildings.forEach(aB => {
                   if (aB.buildingId == box.id) {
                     addedBuildings = addedBuildings.filter(building => building !== aB);
+                    removeKeyframesRule(aB.buildingId);
                     return;
                   }
                 })

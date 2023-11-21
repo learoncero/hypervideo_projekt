@@ -11,26 +11,32 @@ function addBox(building, container, start) {
     boxDiv.style.height = building.positionStart.height + "px";
 
     // Calculate the difference in X and Y positions
-    const deltaX = building.positionEnd.x - building.positionStart.x;
-    const deltaY = building.positionEnd.y - building.positionStart.y;
+    // const deltaX = building.positionEnd.x - building.positionStart.x;
+    // const deltaY = building.positionEnd.y - building.positionStart.y;
 
     // Calculate the scaling factor (assuming the size of the container changes)
-    const startWidth = building.positionStart.width;
-    const startHeight = building.positionStart.height;
-    const endWidth = building.positionEnd.width;
-    const endHeight = building.positionEnd.height;
+    // const startWidth = building.positionStart.width;
+    // const startHeight = building.positionStart.height;
+    // const endWidth = building.positionEnd.width;
+    // const endHeight = building.positionEnd.height;
 
-    const scaleX = endWidth / startWidth;
-    const scaleY = endHeight / startHeight;
+    // const scaleX = endWidth / startWidth;
+    // const scaleY = endHeight / startHeight;
 
     // Update the animation keyframes
     const keyframes = `
         @keyframes moveContainer_${building.buildingId} {
-            from {
-                transform: translate(0, 0) scale(1);
+            0% {
+                left: ${building.positionStart.x}px;
+                top: ${building.positionStart.y}px;
+                width: ${building.positionStart.width}px;
+                height: ${building.positionStart.height}px;
             }
-            to {
-                transform: translate(${deltaX}px, ${deltaY}px) scale(${scaleX}, ${scaleY});
+            100% {
+                left: ${building.positionEnd.x}px;
+                top: ${building.positionEnd.y}px;
+                width: ${building.positionEnd.width}px;
+                height: ${building.positionEnd.height}px;
             }
         }
     `;
@@ -61,4 +67,18 @@ function updateInfoBox(infoBox, description, title, image) {
 
 function createElement(elementType) {
     return document.createElement(elementType);
+}
+
+function removeKeyframesRule(buildingId) {
+    const styleSheet = document.styleSheets[1]; // Update index if needed
+
+    // Find the index of the rule with the specified name
+    for (let i = 0; i < styleSheet.cssRules.length; i++) {
+        const rule = styleSheet.cssRules[i];
+        if (rule.type === CSSRule.KEYFRAMES_RULE && rule.name === `moveContainer_${buildingId}`){
+            // Delete the rule at the found index
+            styleSheet.deleteRule(i);
+            break;
+        }
+    }
 }
