@@ -78,10 +78,10 @@ function removeKeyframesRule(buildingId) {
     }
 }
 
-// Function to log keyframes for a specific animation name
+/*  Function to log keyframes for a specific animation name
 function logKeyframes(styleSheet) {
     for (let i = 0; i < styleSheet.cssRules.length; i++) {
         const rule = styleSheet.cssRules[i];
             console.log(rule.cssText);
     }
-}
+} */

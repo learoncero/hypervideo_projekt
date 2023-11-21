@@ -85,9 +85,9 @@
                     if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
                       addBox(building, boxContainer, timestamp.start);
                       addedBuildings.push(building);
-					  //Logging the keyframes
+					  /*-- Logging the keyframes
                       console.log("Keyframes list after adding a keyframe")
-                      logKeyframes(document.styleSheets[1])                
+                      logKeyframes(document.styleSheets[1])  */          
                     }
                   }
                 });
@@ -133,9 +133,10 @@
 					
 					// Remove the keyframes rule
                     removeKeyframesRule(aB.buildingId);
-                    console.log(`Keyframes rule for ${aB.buildingId} after deletion:`);
+					
+                    /* console.log(`Keyframes rule for ${aB.buildingId} after deletion:`);
                     var style = document.styleSheets[1];
-                    logKeyframes(style);
+                    logKeyframes(style); */
 
 					return;
                   }
