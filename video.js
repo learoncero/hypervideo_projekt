@@ -44,11 +44,36 @@ function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
     var imgElement = infoBox.querySelector('img');
     var pElement = infoBox.querySelector('p');
-    
+
+    // Clear previous styles to avoid conflicts
+    imgElement.style.width = "";
+    imgElement.style.height = "";
+    imgElement.style.objectFit = "";
+    // Hide the image initially
+    imgElement.style.display = "none";
+
     h2Element.innerHTML = title;
-    pElement.innerHTML = description;
     imgElement.src = image;
-    imgElement.alt = title + "Image";
+    imgElement.alt = title + " Image";
+
+    // Wait for the image to load before checking its dimensions
+    imgElement.onload = function() {
+        // Check if the image is wider than it is tall
+        if (imgElement.naturalWidth > imgElement.naturalHeight) {
+            imgElement.style.width = "250px";
+            imgElement.style.height = "150px";
+        } else {
+            // Image is taller than it is wide
+            imgElement.style.height = "200px";
+            imgElement.style.width = "150px";
+        }
+
+        imgElement.style.objectFit = "cover";
+        // Show the image after styles are applied
+        imgElement.style.display = "block";
+
+        pElement.innerHTML = description;
+    };
 }
 
 function createElement(elementType) {
