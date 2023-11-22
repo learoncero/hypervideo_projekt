@@ -1,12 +1,3 @@
-@keyframes moveContainer {
-    from {
-        transform: translate(0, 0) scale(1);
-    }
-    to {
-        transform: translate(Xpx, Ypx) scale(S);
-    }
-}
-
 div.video-page-title {
 	position: relative;
     margin-top: 25px;

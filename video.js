@@ -10,20 +10,6 @@ function addBox(building, container, start) {
     boxDiv.style.width = building.positionStart.width + "px";
     boxDiv.style.height = building.positionStart.height + "px";
 
-    // Calculate the difference in X and Y positions
-    // const deltaX = building.positionEnd.x - building.positionStart.x;
-    // const deltaY = building.positionEnd.y - building.positionStart.y;
-
-    // Calculate the scaling factor (assuming the size of the container changes)
-    // const startWidth = building.positionStart.width;
-    // const startHeight = building.positionStart.height;
-    // const endWidth = building.positionEnd.width;
-    // const endHeight = building.positionEnd.height;
-
-    // const scaleX = endWidth / startWidth;
-    // const scaleY = endHeight / startHeight;
-
-    // Update the animation keyframes
     const keyframes = `
         @keyframes moveContainer_${building.buildingId} {
             0% {
@@ -82,6 +68,18 @@ function removeKeyframesRule(buildingId) {
             break;
         }
     }
+}
+
+function playOrPauseBoxes(isPlaying) {
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) => {
+      if (isPlaying) {
+        box.style.animationPlayState = "running";
+      } else {
+        box.style.animationPlayState = "paused";
+      }
+    });
 }
 
 /*  Function to log keyframes for a specific animation name
