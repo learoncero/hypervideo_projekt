@@ -131,14 +131,15 @@
                   if (aB.buildingId == box.id) {
                     addedBuildings = addedBuildings.filter(building => building !== aB);
 					
-					// Remove the keyframes rule
+					          // Remove the keyframes rule
                     removeKeyframesRule(aB.buildingId);
 					
                     /* console.log(`Keyframes rule for ${aB.buildingId} after deletion:`);
                     var style = document.styleSheets[1];
                     logKeyframes(style); */
 
-					return;
+                    removeKeyframesRule(aB.buildingId);
+                    return;
                   }
                 })
               }
