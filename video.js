@@ -69,6 +69,7 @@ function createElement(elementType) {
     return document.createElement(elementType);
 }
 
+// Function to remove keyframes rule by buildingId name
 function removeKeyframesRule(buildingId) {
     const styleSheet = document.styleSheets[1]; // Update index if needed
 
@@ -82,3 +83,11 @@ function removeKeyframesRule(buildingId) {
         }
     }
 }
+
+/*  Function to log keyframes for a specific animation name
+function logKeyframes(styleSheet) {
+    for (let i = 0; i < styleSheet.cssRules.length; i++) {
+        const rule = styleSheet.cssRules[i];
+            console.log(rule.cssText);
+    }
+} */
