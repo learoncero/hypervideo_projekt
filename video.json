@@ -77,7 +77,7 @@
           }
         },
         {
-          "buildingId": "oceanwide_plaza_tower_i",
+          "buildingId": "wilshire_grand_center",
           "duration": 9,
           "positionStart": {
             "x": 318,
@@ -875,7 +875,7 @@
           }
         },
         {
-          "buildingId": "us_bank_tower",
+          "buildingId": "figueroa_at_wilshire",
           "duration": 3,
           "positionStart": {
             "x": 350,
@@ -979,10 +979,10 @@
       "image": "./images_buildings/aon_center.jpg"
     },
     {
-      "id": "oceanwide_plaza_tower_i",
-      "name": "Oceanwide Plaza Tower I",
-      "description": "Oceanwide Plaza is a partially-completed residential and retail complex composed of three towers in downtown Los Angeles, California, across the street from Crypto.com Arena and the Los Angeles Convention Center. Tower one will feature an 184-room five-star Park Hyatt hotel and 164 Park Hyatt serviced condo residences, a live-in hotel option. Towers two and three will have 504 residential condominiums. They will reach a total of 530 ft; 40 floors in height. When completed, they will become the 11th and 21st tallest buildings in Los Angeles. The Park Hyatt project marks the luxury brand's first hotel and branded residences on the West Coast. Location:\n\n1. Address: 1188 S. Figueroa Street, Los Angeles, CA 90015, USA. Situated in the South Park neighborhood of downtown Los Angeles.\n 2. Developer: The project is developed by Oceanwide Holdings, a Chinese conglomerate with interests in real estate, finance, and energy.\n 3. Components: Oceanwide Plaza is a multi-tower development featuring residential, hotel, and retail components. The project includes three high-rise towers.\n4. Towers: The development consists of three towers: The Park Hyatt Hotel Tower: This tower houses the luxury Park Hyatt hotel. The Residences Tower: Features condominiums and apartments. The Collection: A retail and amenity space.\n 5. Hotel: The Park Hyatt Hotel Tower includes a high-end hotel with luxury accommodations and amenities.",
-      "image": "./images_buildings/oceanwide_plaza_tower_i.jpg"
+      "id": "wilshire_grand_center",
+      "name": "Wilshire Grand Center",
+      "description": "Wilshire Grand Center is a 1,100-foot (335.3 m) skyscraper in the financial district of downtown Los Angeles, California, occupying the entire city block between Wilshire Boulevard and 7th, Figueroa, and Francisco streets. Completed in 2017, it is the tallest building west of Chicago. Though the structural top (in this case, the spire) of the Wilshire Grand surpasses L.A.'s U.S. Bank Tower by 82 ft (25 m), the roof of the U.S. Bank Tower is still 90 ft (27.4 m) above the Wilshire Grand's.[8] The Skyscraper Center lists the Wilshire Grand Center as the 15th-tallest building in the U.S. and the 95th-tallest in the world. It won the Structural Engineering Award 2019 Award of Excellence from the Council on Tall Buildings and Urban Habitat.",
+      "image": "./images_buildings/wilshire_grand_center.jpg"
     },
     {
       "id": "the_ritz_carlton_los_angeles",
@@ -1084,7 +1084,7 @@
       "id": "figueroa_at_wilshire",
       "name": "Figueroa at Wilshire",
       "description": "Figueroa at Wilshire, formerly Sanwa Bank Plaza, is a 53-story, 218.5 m (717 ft) skyscraper in Los Angeles, California, United States. It is the eighth-tallest building in Los Angeles. It was designed by Albert C. Martin & Associates, and developed by Hines Interests Limited Partnership. It won the Rose Award for \"Outstanding New Office Building\" in 1991. The tower was constructed from 1988 to 1990 on the site of the former St. Paul's Episcopal Cathedral.",
-      "image": "./images_buildings/figueroa_at_wilshire.png"
+      "image": "./images_buildings/figueroa_at_wilshire.jpg"
     },
     {
       "id": "los_angeles_center_studios",
