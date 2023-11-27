@@ -48,6 +48,7 @@ div.video-page-table .text-column {
 
 div.infobox {
     max-width: 70%;
+    overflow-y: auto;
 }
 
 div.player-column {
@@ -75,4 +76,12 @@ div.infobox img {
     z-index: 1;
     position: absolute;
     cursor: pointer;
+}
+
+.instruction-list-element {
+    margin-left: 10%;
+}
+
+.ordered-list-element {
+    margin-left: 5%;
 }
