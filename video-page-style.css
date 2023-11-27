@@ -48,6 +48,7 @@ div.video-page-table .text-column {
 
 div.infobox {
     max-width: 70%;
+    max-height: 400px;
     overflow-y: auto;
 }
 
