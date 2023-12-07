@@ -10,20 +10,6 @@ function addBox(building, container, start) {
     boxDiv.style.width = building.positionStart.width + "px";
     boxDiv.style.height = building.positionStart.height + "px";
 
-    // Calculate the difference in X and Y positions
-    // const deltaX = building.positionEnd.x - building.positionStart.x;
-    // const deltaY = building.positionEnd.y - building.positionStart.y;
-
-    // Calculate the scaling factor (assuming the size of the container changes)
-    // const startWidth = building.positionStart.width;
-    // const startHeight = building.positionStart.height;
-    // const endWidth = building.positionEnd.width;
-    // const endHeight = building.positionEnd.height;
-
-    // const scaleX = endWidth / startWidth;
-    // const scaleY = endHeight / startHeight;
-
-    // Update the animation keyframes
     const keyframes = `
         @keyframes moveContainer_${building.buildingId} {
             0% {
@@ -58,11 +44,36 @@ function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
     var imgElement = infoBox.querySelector('img');
     var pElement = infoBox.querySelector('p');
-    
+
+    // Clear previous styles to avoid conflicts
+    imgElement.style.width = "";
+    imgElement.style.height = "";
+    imgElement.style.objectFit = "";
+    // Hide the image initially
+    imgElement.style.display = "none";
+
     h2Element.innerHTML = title;
-    pElement.innerHTML = description;
     imgElement.src = image;
-    imgElement.alt = title + "Image";
+    imgElement.alt = title + " Image";
+
+    // Wait for the image to load before checking its dimensions
+    imgElement.onload = function() {
+        // Check if the image is wider than it is tall
+        if (imgElement.naturalWidth > imgElement.naturalHeight) {
+            imgElement.style.width = "250px";
+            imgElement.style.height = "150px";
+        } else {
+            // Image is taller than it is wide
+            imgElement.style.height = "200px";
+            imgElement.style.width = "150px";
+        }
+
+        imgElement.style.objectFit = "cover";
+        // Show the image after styles are applied
+        imgElement.style.display = "block";
+
+        pElement.innerHTML = description;
+    };
 }
 
 function createElement(elementType) {
@@ -82,6 +93,18 @@ function removeKeyframesRule(buildingId) {
             break;
         }
     }
+}
+
+function playOrPauseBoxes(isPlaying) {
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) => {
+      if (isPlaying) {
+        box.style.animationPlayState = "running";
+      } else {
+        box.style.animationPlayState = "paused";
+      }
+    });
 }
 
 /*  Function to log keyframes for a specific animation name
