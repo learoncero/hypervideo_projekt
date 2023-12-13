@@ -19,7 +19,7 @@ div.video-page-table {
 	margin-top: 0px;
 	margin-left: 2%;
 	margin-right: 2%;
-	width: 100%;
+	width: 96%;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -33,7 +33,6 @@ div.video-page-table .video-column {
 }
 
 div.video-page-table .text-column {
-    flex: 0.4;
     padding-left: 80px;
 }
 
