@@ -57,7 +57,7 @@ function addBox(building, container, start) {
 function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
     var imgElement = infoBox.querySelector('img');
-    var pElement = infoBox.querySelector('p');
+    var pElement = infoBox.querySelector('div');
     
     h2Element.innerHTML = title;
     pElement.innerHTML = description;
