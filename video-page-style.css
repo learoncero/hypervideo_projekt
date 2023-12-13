@@ -1,12 +1,3 @@
-@keyframes moveContainer {
-    from {
-        transform: translate(0, 0) scale(1);
-    }
-    to {
-        transform: translate(Xpx, Ypx) scale(S);
-    }
-}
-
 div.video-page-title {
 	position: relative;
     margin-top: 25px;
@@ -63,10 +54,6 @@ div.player-column video {
 
 div.infobox h2 {
     margin-bottom: 15px;
-}
-
-div.infobox img {
-    width: 150px;
 }
 
 .box-container .box {
