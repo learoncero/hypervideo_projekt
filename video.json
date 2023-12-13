@@ -407,9 +407,9 @@
           "buildingId": "gas_company_tower_deloitte",
           "duration": 6,
           "positionStart": {
-            "x": 106,
+            "x": 100,
             "y": 446,
-            "width": 220,
+            "width": 200,
             "height": 172
           },
           "positionEnd": {
@@ -428,7 +428,7 @@
           "buildingId": "2cal",
           "duration": 4,
           "positionStart": {
-            "x": 305,
+            "x": 306,
             "y": 511,
             "width": 517,
             "height": 109
@@ -447,87 +447,87 @@
       "buildings": [
         {
           "buildingId": "union_bank_plaza",
-          "duration": 4,
+          "duration": 3.3,
           "positionStart": {
-            "x": 358,
-            "y": 369,
-            "width": 68,
-            "height": 145
+            "x": 350,
+            "y": 378,
+            "width": 80,
+            "height": 166
           },
           "positionEnd": {
-            "x": 244,
-            "y": 382,
-            "width": 72,
-            "height": 154
+            "x": 260,
+            "y": 380,
+            "width": 81,
+            "height": 165
           }
         },
         {
           "buildingId": "figueroa_at_wilshire",
-          "duration": 4,
+          "duration": 3.3,
           "positionStart": {
-            "x": 648,
-            "y": 311,
-            "width": 61,
-            "height": 182
+            "x": 644,
+            "y": 317,
+            "width": 70,
+            "height": 215
           },
           "positionEnd": {
-            "x": 577,
-            "y": 327,
-            "width": 60,
-            "height": 204
+            "x": 580,
+            "y": 320,
+            "width": 80,
+            "height": 210
           }
         },
         {
           "buildingId": "los_angeles_center_studios",
-          "duration": 4,
+          "duration": 3.3,
           "positionStart": {
-            "x": 355,
-            "y": 547,
-            "width": 150,
-            "height": 70
+            "x": 280,
+            "y": 557,
+            "width": 170,
+            "height": 66
           },
           "positionEnd": {
-            "x": 31,
-            "y": 562,
-            "width": 164,
-            "height": 58
+            "x": 40,
+            "y": 548,
+            "width": 190,
+            "height": 69
           }
         }
       ]
     },
     {
-      "start": 93,
+      "start": 92.5,
       "buildings": [
         {
           "buildingId": "gas_company_tower_deloitte",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
-            "x": 178,
-            "y": 375,
-            "width": 172,
-            "height": 234
+            "x": 166,
+            "y": 381,
+            "width": 190,
+            "height": 220
           },
           "positionEnd": {
-            "x": 332,
-            "y": 327,
-            "width": 83,
-            "height": 150
+            "x": 309,
+            "y": 316,
+            "width": 105,
+            "height": 272
           }
         },
         {
           "buildingId": "us_bank_tower",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
-            "x": 388,
-            "y": 283,
-            "width": 258,
-            "height": 335
+            "x": 390,
+            "y": 273,
+            "width": 279,
+            "height": 330
           },
           "positionEnd": {
-            "x": 430,
-            "y": 303,
-            "width": 252,
-            "height": 317
+            "x": 416,
+            "y": 289,
+            "width": 286,
+            "height": 315
           }
         }
       ]
@@ -537,7 +537,7 @@
       "buildings": [
         {
           "buildingId": "2cal",
-          "duration": 8,
+          "duration": 8.5,
           "positionStart": {
             "x": 210,
             "y": 497,
@@ -546,14 +546,14 @@
           },
           "positionEnd": {
             "x": 149,
-            "y": 526,
+            "y": 520,
             "width": 117,
-            "height": 122
+            "height": 100
           }
         },
         {
           "buildingId": "wells_fargo_tower",
-          "duration": 8,
+          "duration": 8.5,
           "positionStart": {
             "x": 355,
             "y": 520,
@@ -561,15 +561,15 @@
             "height": 94
           },
           "positionEnd": {
-            "x": 306,
-            "y": 557,
-            "width": 135,
-            "height": 59
+            "x": 330,
+            "y": 553,
+            "width": 124,
+            "height": 60
           }
         },
         {
           "buildingId": "us_bank_tower",
-          "duration": 8,
+          "duration": 8.5,
           "positionStart": {
             "x": 399,
             "y": 354,
@@ -577,15 +577,15 @@
             "height": 158
           },
           "positionEnd": {
-            "x": 404,
-            "y": 359,
-            "width": 53,
-            "height": 183
+            "x": 414,
+            "y": 352,
+            "width": 60,
+            "height": 190
           }
         },
         {
           "buildingId": "union_bank_plaza",
-          "duration": 8,
+          "duration": 8.5,
           "positionStart": {
             "x": 650,
             "y": 448,
@@ -595,13 +595,13 @@
           "positionEnd": {
             "x": 719,
             "y": 479,
-            "width": 73,
-            "height": 143
+            "width": 110,
+            "height": 130
           }
         },
         {
           "buildingId": "westin_bonaventure_hotel",
-          "duration": 8,
+          "duration": 8.5,
           "positionStart": {
             "x": 551,
             "y": 506,
@@ -609,47 +609,10 @@
             "height": 71
           },
           "positionEnd": {
-            "x": 591,
-            "y": 552,
-            "width": 106,
-            "height": 95
-          }
-        }
-      ]
-    },
-    {
-      "start": 106,
-      "buildings": [
-        {
-          "buildingId": "figueroa_at_wilshire",
-          "duration": 4,
-          "positionStart": {
-            "x": 127,
-            "y": 204,
-            "width": 277,
-            "height": 309
-          },
-          "positionEnd": {
-            "x": 399,
-            "y": 382,
-            "width": 200,
-            "height": 190
-          }
-        },
-        {
-          "buildingId": "city_national_plaza_twin_towers",
-          "duration": 1,
-          "positionStart": {
-            "x": 528,
-            "y": 298,
-            "width": 302,
-            "height": 311
-          },
-          "positionEnd": {
-            "x": 565,
-            "y": 533,
-            "width": 265,
-            "height": 90
+            "x": 600,
+            "y": 545,
+            "width": 110,
+            "height": 80
           }
         }
       ]
@@ -659,55 +622,34 @@
       "buildings": [
         {
           "buildingId": "wedbush_center",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
-            "x": 581,
-            "y": 205,
-            "width": 250,
-            "height": 200
+            "x": 535,
+            "y": 208,
+            "width": 255,
+            "height": 193
           },
           "positionEnd": {
-            "x": 180,
+            "x": 190,
             "y": 205,
-            "width": 270,
-            "height": 190
+            "width": 256,
+            "height": 165
           }
         },
         {
           "buildingId": "tenten_wilshire",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
-            "x": 591,
-            "y": 405,
-            "width": 245,
-            "height": 210
+            "x": 611,
+            "y": 410,
+            "width": 220,
+            "height": 200
           },
           "positionEnd": {
-            "x": 39,
-            "y": 391,
-            "width": 215,
-            "height": 220
-          }
-        }
-      ]
-    },
-    {
-      "start": 114,
-      "buildings": [
-        {
-          "buildingId": "arco_tower",
-          "duration": 1,
-          "positionStart": {
-            "x": 546,
-            "y": 204,
-            "width": 280,
-            "height": 420
-          },
-          "positionEnd": {
-            "x": 546,
-            "y": 204,
-            "width": 280,
-            "height": 420
+            "x": 40,
+            "y": 371,
+            "width": 180,
+            "height": 239
           }
         }
       ]
@@ -717,7 +659,7 @@
       "buildings": [
         {
           "buildingId": "city_national_plaza_twin_towers",
-          "duration": 2,
+          "duration": 3,
           "positionStart": {
             "x": 579,
             "y": 450,
@@ -725,15 +667,15 @@
             "height": 173
           },
           "positionEnd": {
-            "x": 561,
-            "y": 451,
-            "width": 135,
-            "height": 170
+            "x": 530,
+            "y": 402,
+            "width": 161,
+            "height": 176
           }
         },
         {
           "buildingId": "aon_center",
-          "duration": 3,
+          "duration": 4,
           "positionStart": {
             "x": 241,
             "y": 343,
@@ -741,10 +683,10 @@
             "height": 280
           },
           "positionEnd": {
-            "x": 244,
-            "y": 347 ,
-            "width": 110,
-            "height": 275
+            "x": 250,
+            "y": 308 ,
+            "width": 100,
+            "height": 135
           }
         },
         {
@@ -757,41 +699,41 @@
             "height": 175
           },
           "positionEnd": {
-            "x": 409,
-            "y": 299,
-            "width": 55,
-            "height": 160
+            "x": 398,
+            "y": 282,
+            "width": 67,
+            "height": 150
           }
         }
       ]
     },
     {
-      "start": 124,
+      "start": 119,
       "buildings": [
         {
-          "buildingId": "us_bank_tower",
-          "duration": 1,
+          "buildingsId": "us_bank_tower",
+          "duration": 4.5,
           "positionStart": {
-            "x": 303,
-            "y": 265,
-            "width": 315,
-            "height": 359
+            "x": 191,
+            "y": 460,
+            "width": 635,
+            "height": 142
           },
           "positionEnd": {
-            "x": 303,
-            "y": 265,
-            "width": 315,
-            "height": 359
+            "x": 341,
+            "y": 205,
+            "width": 249,
+            "height": 407
           }
         }
       ]
     },
     {
-      "start": 125,
+      "start": 124.5,
       "buildings": [
         {
           "buildingId": "aon_center",
-          "duration": 3,
+          "duration": 4,
           "positionStart": {
             "x": 63,
             "y": 293,
@@ -807,7 +749,7 @@
         },
         {
           "buildingId": "611_place",
-          "duration": 3,
+          "duration": 4,
           "positionStart": {
             "x": 183,
             "y": 382,
@@ -823,7 +765,7 @@
         },
         {
           "buildingId": "gas_company_tower_deloitte",
-          "duration": 3,
+          "duration": 4,
           "positionStart": {
             "x": 452,
             "y": 337,
@@ -839,7 +781,7 @@
         },
         {
           "buildingId": "2cal",
-          "duration": 3,
+          "duration": 4,
           "positionStart": {
             "x": 662,
             "y": 310,
@@ -860,7 +802,7 @@
       "buildings": [
         {
           "buildingId": "777_tower",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
             "x": 680,
             "y": 230,
@@ -876,7 +818,7 @@
         },
         {
           "buildingId": "us_bank_tower",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
             "x": 350,
             "y": 260,
@@ -892,12 +834,12 @@
         },
         {
           "buildingId": "ey_plaza",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
-            "x": 518,
-            "y": 329,
-            "width": 100,
-            "height": 270
+            "x": 506,
+            "y": 313,
+            "width": 106,
+            "height": 261
           },
           "positionEnd": {
             "x": 468,
