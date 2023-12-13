@@ -72,7 +72,7 @@ function updateInfoBox(infoBox, description, title, image) {
         // Show the image after styles are applied
         imgElement.style.display = "block";
 
-        pElement.innerHTML = description;
+        pElement.innerHTML = "<br>" + description;
     };
 }
 
