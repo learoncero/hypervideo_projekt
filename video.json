@@ -101,16 +101,16 @@
           "buildingId": "the_ritz_carlton_los_angeles",
           "duration": 9,
           "positionStart": {
-            "x": 72,
-            "y": 302,
+            "x": 34,
+            "y": 303,
             "width": 80,
-            "height": 270
+            "height": 190
           },
           "positionEnd": {
-            "x": 32,
-            "y": 318,
-            "width": 31,
-            "height": 233
+            "x": 34,
+            "y": 303,
+            "width": 38,
+            "height": 190
           }
         },
         {
@@ -120,13 +120,13 @@
             "x": 72,
             "y": 496,
             "width": 358,
-            "height": 124
+            "height": 120
           },
           "positionEnd": {
             "x": 32,
             "y": 496,
             "width": 297,
-            "height": 124
+            "height": 120
           }
         }
       ]
@@ -141,13 +141,13 @@
             "x": 557,
             "y": 279,
             "width": 92,
-            "height": 344
+            "height": 340
           },
           "positionEnd": {
             "x": 489,
             "y": 265,
             "width": 97,
-            "height": 354
+            "height": 350
           }
         },
         {
@@ -157,7 +157,7 @@
             "x": 424,
             "y": 409,
             "width": 73,
-            "height": 214
+            "height": 210
           },
           "positionEnd": {
             "x": 378,
@@ -173,7 +173,7 @@
       "buildings": [
         {
           "buildingId": "crypto_com_arena",
-          "duration": 5,
+          "duration": 4.5,
           "positionStart": {
             "x": 380,
             "y": 354,
@@ -189,7 +189,7 @@
         },
         {
           "buildingId": "peacock_theater_and_the_novo",
-          "duration": 5,
+          "duration": 4.5,
           "positionStart": {
             "x": 160,
             "y": 377,
@@ -231,7 +231,7 @@
       "buildings": [
         {
           "buildingId": "777_tower",
-          "duration": 4,
+          "duration": 4.5,
           "positionStart": {
             "x": 522,
             "y": 267,
@@ -247,18 +247,18 @@
         },
         {
           "buildingId": "tcw_tower",
-          "duration": 4,
+          "duration": 4.5,
           "positionStart": {
-            "x": 658,
-            "y": 332,
-            "width": 73,
+            "x": 655,
+            "y": 330,
+            "width": 85,
             "height": 187
           },
           "positionEnd": {
             "x": 630,
             "y": 317,
-            "width": 38,
-            "height": 174
+            "width": 85,
+            "height": 175
           }
         }
       ]
@@ -326,7 +326,7 @@
       "buildings": [
         {
           "buildingId": "dodger_stadium",
-          "duration": 3,
+          "duration": 3.5,
           "positionStart": {
             "x": 178,
             "y": 385,
@@ -347,7 +347,7 @@
       "buildings": [
         {
           "buildingId": "california_highway_patrol",
-          "duration": 4,
+          "duration": 3.5,
           "positionStart": {
             "x": 574,
             "y": 463,
@@ -368,7 +368,7 @@
       "buildings": [
         {
           "buildingId": "junction_between_10_110",
-          "duration": 5,
+          "duration": 4,
           "positionStart": {
             "x": 207,
             "y": 246,
@@ -394,7 +394,7 @@
             "x": 465,
             "y": 246,
             "width": 109,
-            "height": 373
+            "height": 230
           },
           "positionEnd": {
             "x": 470,
