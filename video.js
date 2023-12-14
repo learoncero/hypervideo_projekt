@@ -43,7 +43,8 @@ function addBox(building, container, start) {
 function updateInfoBox(infoBox, description, title, image) {
     var h2Element = infoBox.querySelector('h2');
     var imgElement = infoBox.querySelector('img');
-    var pElement = infoBox.querySelector('p');
+
+    var pElement = infoBox.querySelector('div');
 
     // Clear previous styles to avoid conflicts
     imgElement.style.width = "";
@@ -51,7 +52,7 @@ function updateInfoBox(infoBox, description, title, image) {
     imgElement.style.objectFit = "";
     // Hide the image initially
     imgElement.style.display = "none";
-
+  
     h2Element.innerHTML = title;
     imgElement.src = image;
     imgElement.alt = title + " Image";
