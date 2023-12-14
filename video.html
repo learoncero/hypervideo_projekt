@@ -34,7 +34,7 @@
             <tr>
               <td class="video-column">
                 <div class="player-column">
-                  <video id="videoID" controls nopictureinpicture controlslist="nofullscreen">
+                  <video id="videoID" controls nopictureinpicture controlslist="nofullscreen," muted>
                     <source src="video/LosAngelesArial.mp4" type="video/mp4">
                     <source src="video/LosAngelesArial.ogg" type="video/ogg">
                     Your browser does not support the video tag.
@@ -212,18 +212,6 @@
             isVideoPlaying = false;
             playOrPauseBoxes(isVideoPlaying);
           });
-
-          function playOrPauseBoxes(isPlaying) {
-            const boxes = document.querySelectorAll(".box");
-
-            boxes.forEach((box) => {
-              if (isPlaying) {
-                box.style.animationPlayState = "running";
-              } else {
-                box.style.animationPlayState = "paused";
-              }
-            });
-          }
         })
         .catch(error => console.error('Error fetching JSON:', error));
     </script>
