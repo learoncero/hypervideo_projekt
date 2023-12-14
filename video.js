@@ -13,13 +13,13 @@ function addBox(building, container, start) {
     const keyframes = `
         @keyframes moveContainer_${building.buildingId} {
             0% {
-                left: ${building.positionStart.x}px;
+                left: ${building.positionStart.x+50}px;
                 top: ${building.positionStart.y}px;
                 width: ${building.positionStart.width}px;
                 height: ${building.positionStart.height}px;
             }
             100% {
-                left: ${building.positionEnd.x}px;
+                left: ${building.positionEnd.x+50}px;
                 top: ${building.positionEnd.y}px;
                 width: ${building.positionEnd.width}px;
                 height: ${building.positionEnd.height}px;

@@ -1,7 +1,7 @@
 div.video-page-title {
 	position: relative;
     margin-top: 25px;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 45%;
     text-overflow: hidden;
     text-overflow: ellipsis;
@@ -17,9 +17,9 @@ div.video-page-table {
     display: flex;
 	position: relative;
 	margin-top: 0px;
-	margin-left: 2%;
+	margin-left: 5%;
 	margin-right: 2%;
-	width: 96%;
+	width: 93%;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -37,7 +37,7 @@ div.video-page-table .text-column {
 }
 
 div.infobox {
-    max-width: 70%;
+    max-width: 80%;
     max-height: 400px;
     overflow-y: auto;
 }
