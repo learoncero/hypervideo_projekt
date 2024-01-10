@@ -9,13 +9,13 @@ div.video-page-title {
 }
 
 div.video-page-title h1{
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 div.video-page-table {
     display: flex;
 	position: relative;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-left: 5%;
 	margin-right: 2%;
 	width: 93%;
