@@ -38,7 +38,7 @@
                 <div class="player-column">
                   <video id="videoID" controls nopictureinpicture controlslist="nofullscreen" muted>
                     <source src="video/LosAngelesArial.mp4" type="video/mp4">
-                    <source src="video-page/video/LosAngelesArial.ogg" type="video/ogg">
+                    <source src="video/LosAngelesArial.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                   </video>
                 </div> 										
@@ -128,8 +128,8 @@
         .then(data => {
           const timestamps = data.video.timestamps;
           const buildings = data.video.buildings;
-          var video = document.getElementById("videoID");
-          var boxContainer = document.getElementById("box-container"); 
+          let video = document.getElementById("videoID");
+          let boxContainer = document.getElementById("box-container");
 
           let addedBuildings = [];
           video.addEventListener("timeupdate", function() {
@@ -161,17 +161,16 @@
             
             boxes.forEach(box => {
               box.addEventListener("click", function() {
-                var boxID = box.getAttribute("id");
-                var description;
-                var title;
-                var image;
+                let boxID = box.getAttribute("id");
+                let description;
+                let title;
+                let image;
 
                 buildings.forEach(building => {
                   if (building.id == boxID) {
                     description = building.description;
                     title = building.name;
                     image = building.image;
-                    return;
                   }
                 });
                 
@@ -196,7 +195,6 @@
                     logKeyframes(style); */
 
                     removeKeyframesRule(aB.buildingId);
-                    return;
                   }
                 })
               }
