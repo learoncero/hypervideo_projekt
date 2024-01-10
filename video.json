@@ -30,13 +30,13 @@
             "x": 544,
             "y": 367,
             "width": 167,
-            "height": 253
+            "height": 223
           },
           "positionEnd": {
             "x": 448,
             "y": 371,
             "width": 184,
-            "height": 252
+            "height": 222
           }
         },
         {
@@ -46,13 +46,13 @@
             "x": 125,
             "y": 357,
             "width": 171,
-            "height": 263
+            "height": 233
           },
           "positionEnd": {
             "x": 32,
             "y": 355,
             "width": 167,
-            "height": 265
+            "height": 235
           }
         }
       ]
