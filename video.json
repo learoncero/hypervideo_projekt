@@ -711,7 +711,7 @@
       "start": 119,
       "buildings": [
         {
-          "buildingsId": "us_bank_tower",
+          "buildingId": "us_bank_tower",
           "duration": 4.5,
           "positionStart": {
             "x": 191,
