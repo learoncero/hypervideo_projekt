@@ -58,7 +58,7 @@ div.infobox h2 {
 }
 
 .box-container .box {
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(226, 195, 16);
     display: block;
     z-index: 1;
     position: absolute;
