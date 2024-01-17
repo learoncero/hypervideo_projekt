@@ -1,0 +1,1081 @@
+{
+  "video": {
+  "url": "video/LosAngelesArial.mp4",
+  "width": 1920,
+  "height": 1080,
+  "timestamps": [
+    {
+      "start": 5,
+      "buildings": [
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 4,
+          "positionStart": {
+            "x": 349,
+            "y": 244,
+            "width": 55,
+            "height": 379
+          },
+          "positionEnd": {
+            "x": 324,
+            "y": 241,
+            "width": 58,
+            "height": 345
+          }
+        },
+        {
+          "buildingId": "bank_of_america_plaza",
+          "duration": 4,
+          "positionStart": {
+            "x": 544,
+            "y": 367,
+            "width": 167,
+            "height": 223
+          },
+          "positionEnd": {
+            "x": 448,
+            "y": 371,
+            "width": 184,
+            "height": 222
+          }
+        },
+        {
+          "buildingId": "wells_fargo_tower",
+          "duration": 4,
+          "positionStart": {
+            "x": 125,
+            "y": 357,
+            "width": 171,
+            "height": 233
+          },
+          "positionEnd": {
+            "x": 32,
+            "y": 355,
+            "width": 167,
+            "height": 235
+          }
+        }
+      ]
+    },
+    {
+      "start": 10,
+      "buildings": [
+        {
+          "buildingId": "aon_center",
+          "duration": 9,
+          "positionStart": {
+            "x": 506,
+            "y": 267,
+            "width": 32,
+            "height": 170
+          },
+          "positionEnd": {
+            "x": 492,
+            "y": 265,
+            "width": 35,
+            "height": 179
+          }
+        },
+        {
+          "buildingId": "wilshire_grand_center",
+          "duration": 9,
+          "positionStart": {
+            "x": 318,
+            "y": 283,
+            "width": 42,
+            "height": 146
+          },
+          "positionEnd": {
+            "x": 304,
+            "y": 278,
+            "width": 40,
+            "height": 144
+          }
+        }
+      ]
+    },
+    {
+      "start": 20,
+      "buildings": [
+        {
+          "buildingId": "the_ritz_carlton_los_angeles",
+          "duration": 9,
+          "positionStart": {
+            "x": 34,
+            "y": 303,
+            "width": 80,
+            "height": 190
+          },
+          "positionEnd": {
+            "x": 34,
+            "y": 303,
+            "width": 38,
+            "height": 190
+          }
+        },
+        {
+          "buildingId": "l_a_live",
+          "duration": 9,
+          "positionStart": {
+            "x": 72,
+            "y": 496,
+            "width": 358,
+            "height": 90
+          },
+          "positionEnd": {
+            "x": 32,
+            "y": 496,
+            "width": 297,
+            "height": 90
+          }
+        }
+      ]
+    },
+    {
+      "start": 30,
+      "buildings": [
+        {
+          "buildingId": "2cal",
+          "duration": 4,
+          "positionStart": {
+            "x": 557,
+            "y": 279,
+            "width": 92,
+            "height": 340
+          },
+          "positionEnd": {
+            "x": 489,
+            "y": 265,
+            "width": 97,
+            "height": 350
+          }
+        },
+        {
+          "buildingId": "at_and_t_switching_center",
+          "duration": 4,
+          "positionStart": {
+            "x": 424,
+            "y": 409,
+            "width": 73,
+            "height": 210
+          },
+          "positionEnd": {
+            "x": 378,
+            "y": 393,
+            "width": 77,
+            "height": 210
+          }
+        }
+      ]
+    },
+    {
+      "start": 35,
+      "buildings": [
+        {
+          "buildingId": "crypto_com_arena",
+          "duration": 4.5,
+          "positionStart": {
+            "x": 380,
+            "y": 354,
+            "width": 264,
+            "height": 185
+          },
+          "positionEnd": {
+            "x": 321,
+            "y": 362,
+            "width": 301,
+            "height": 223
+          }
+        },
+        {
+          "buildingId": "peacock_theater_and_the_novo",
+          "duration": 4.5,
+          "positionStart": {
+            "x": 160,
+            "y": 377,
+            "width": 168,
+            "height": 122
+          },
+          "positionEnd": {
+            "x": 135,
+            "y": 348,
+            "width": 185,
+            "height": 111
+          }
+        }
+      ]
+    },
+    {
+      "start": 40,
+      "buildings": [
+        {
+          "buildingId": "city_national_bank",
+          "duration": 4,
+          "positionStart": {
+            "x": 360,
+            "y": 341,
+            "width": 86,
+            "height": 218
+          },
+          "positionEnd": {
+            "x": 361,
+            "y": 327,
+            "width": 83,
+            "height": 191
+          }
+        }
+      ]
+    },
+    {
+      "start": 45,
+      "buildings": [
+        {
+          "buildingId": "777_tower",
+          "duration": 4.5,
+          "positionStart": {
+            "x": 522,
+            "y": 267,
+            "width": 44,
+            "height": 195
+          },
+          "positionEnd": {
+            "x": 530,
+            "y": 251,
+            "width": 44,
+            "height": 181
+          }
+        },
+        {
+          "buildingId": "tcw_tower",
+          "duration": 4.5,
+          "positionStart": {
+            "x": 655,
+            "y": 330,
+            "width": 85,
+            "height": 187
+          },
+          "positionEnd": {
+            "x": 630,
+            "y": 317,
+            "width": 85,
+            "height": 175
+          }
+        }
+      ]
+    },
+    {
+      "start": 50,
+      "buildings": [
+        {
+          "buildingId": "611_place",
+          "duration": 4,
+          "positionStart": {
+            "x": 319,
+            "y": 406,
+            "width": 41,
+            "height": 108
+          },
+          "positionEnd": {
+            "x": 323,
+            "y": 417,
+            "width": 38,
+            "height": 109
+          }
+        },
+        {
+          "buildingId": "city_national_plaza_twin_towers",
+          "duration": 4,
+          "positionStart": {
+            "x": 356,
+            "y": 354,
+            "width": 76,
+            "height": 113
+          },
+          "positionEnd": {
+            "x": 374,
+            "y": 364,
+            "width": 80,
+            "height": 110
+          }
+        }
+      ]
+    },
+    {
+      "start": 55,
+      "buildings": [
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 4,
+          "positionStart": {
+            "x": 398,
+            "y": 267,
+            "width": 190,
+            "height": 327
+          },
+          "positionEnd": {
+            "x": 394,
+            "y": 264,
+            "width": 192,
+            "height": 330
+          }
+        }
+      ]
+    },
+    {
+      "start": 61,
+      "buildings": [
+        {
+          "buildingId": "dodger_stadium",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 178,
+            "y": 385,
+            "width": 568,
+            "height": 184
+          },
+          "positionEnd": {
+            "x": 152,
+            "y": 387,
+            "width": 574,
+            "height": 200
+          }
+        }
+      ]
+    },
+    {
+      "start": 71,
+      "buildings": [
+        {
+          "buildingId": "california_highway_patrol",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 574,
+            "y": 463,
+            "width": 189,
+            "height": 144
+          },
+          "positionEnd": {
+            "x": 474,
+            "y": 359,
+            "width": 211,
+            "height": 140
+          }
+        }
+      ]
+    },
+    {
+      "start": 76,
+      "buildings": [
+        {
+          "buildingId": "junction_between_10_110",
+          "duration": 4,
+          "positionStart": {
+            "x": 207,
+            "y": 246,
+            "width": 464,
+            "height": 316
+          },
+          "positionEnd": {
+            "x": 207,
+            "y": 246,
+            "width": 464,
+            "height": 316
+          }
+        }
+      ]
+    },
+    {
+      "start": 81,
+      "buildings": [
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 6,
+          "positionStart": {
+            "x": 465,
+            "y": 246,
+            "width": 109,
+            "height": 230
+          },
+          "positionEnd": {
+            "x": 470,
+            "y": 223,
+            "width": 80,
+            "height": 120
+          }
+        },
+        {
+          "buildingId": "gas_company_tower_deloitte",
+          "duration": 6,
+          "positionStart": {
+            "x": 100,
+            "y": 446,
+            "width": 200,
+            "height": 142
+          },
+          "positionEnd": {
+            "x": 179,
+            "y": 383,
+            "width": 154,
+            "height": 192
+          }
+        }
+      ]
+    },
+    {
+      "start": 83,
+      "buildings": [
+        {
+          "buildingId": "2cal",
+          "duration": 4,
+          "positionStart": {
+            "x": 306,
+            "y": 511,
+            "width": 517,
+            "height": 79
+          },
+          "positionEnd": {
+            "x": 358,
+            "y": 370,
+            "width": 387,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "start": 88,
+      "buildings": [
+        {
+          "buildingId": "union_bank_plaza",
+          "duration": 3.3,
+          "positionStart": {
+            "x": 350,
+            "y": 378,
+            "width": 80,
+            "height": 166
+          },
+          "positionEnd": {
+            "x": 260,
+            "y": 380,
+            "width": 81,
+            "height": 165
+          }
+        },
+        {
+          "buildingId": "figueroa_at_wilshire",
+          "duration": 3.3,
+          "positionStart": {
+            "x": 644,
+            "y": 317,
+            "width": 70,
+            "height": 215
+          },
+          "positionEnd": {
+            "x": 580,
+            "y": 320,
+            "width": 80,
+            "height": 210
+          }
+        },
+        {
+          "buildingId": "los_angeles_center_studios",
+          "duration": 3.3,
+          "positionStart": {
+            "x": 280,
+            "y": 557,
+            "width": 170,
+            "height": 36
+          },
+          "positionEnd": {
+            "x": 40,
+            "y": 548,
+            "width": 190,
+            "height": 39
+          }
+        }
+      ]
+    },
+    {
+      "start": 92.5,
+      "buildings": [
+        {
+          "buildingId": "gas_company_tower_deloitte",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 166,
+            "y": 381,
+            "width": 190,
+            "height": 220
+          },
+          "positionEnd": {
+            "x": 309,
+            "y": 316,
+            "width": 105,
+            "height": 272
+          }
+        },
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 390,
+            "y": 273,
+            "width": 279,
+            "height": 330
+          },
+          "positionEnd": {
+            "x": 416,
+            "y": 289,
+            "width": 286,
+            "height": 315
+          }
+        }
+      ]
+    },
+    {
+      "start": 97,
+      "buildings": [
+        {
+          "buildingId": "2cal",
+          "duration": 8.5,
+          "positionStart": {
+            "x": 210,
+            "y": 497,
+            "width": 83,
+            "height": 118
+          },
+          "positionEnd": {
+            "x": 149,
+            "y": 520,
+            "width": 117,
+            "height": 100
+          }
+        },
+        {
+          "buildingId": "wells_fargo_tower",
+          "duration": 8.5,
+          "positionStart": {
+            "x": 355,
+            "y": 520,
+            "width": 89,
+            "height": 94
+          },
+          "positionEnd": {
+            "x": 330,
+            "y": 553,
+            "width": 124,
+            "height": 60
+          }
+        },
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 8.5,
+          "positionStart": {
+            "x": 399,
+            "y": 354,
+            "width": 44,
+            "height": 158
+          },
+          "positionEnd": {
+            "x": 414,
+            "y": 352,
+            "width": 60,
+            "height": 190
+          }
+        },
+        {
+          "buildingId": "union_bank_plaza",
+          "duration": 8.5,
+          "positionStart": {
+            "x": 650,
+            "y": 448,
+            "width": 56,
+            "height": 120
+          },
+          "positionEnd": {
+            "x": 719,
+            "y": 479,
+            "width": 110,
+            "height": 120
+          }
+        },
+        {
+          "buildingId": "westin_bonaventure_hotel",
+          "duration": 8.5,
+          "positionStart": {
+            "x": 551,
+            "y": 506,
+            "width": 82,
+            "height": 71
+          },
+          "positionEnd": {
+            "x": 600,
+            "y": 545,
+            "width": 100,
+            "height": 80
+          }
+        }
+      ]
+    },
+    {
+      "start": 111,
+      "buildings": [
+        {
+          "buildingId": "wedbush_center",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 535,
+            "y": 208,
+            "width": 255,
+            "height": 193
+          },
+          "positionEnd": {
+            "x": 190,
+            "y": 205,
+            "width": 256,
+            "height": 165
+          }
+        },
+        {
+          "buildingId": "tenten_wilshire",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 611,
+            "y": 410,
+            "width": 220,
+            "height": 170
+          },
+          "positionEnd": {
+            "x": 40,
+            "y": 371,
+            "width": 180,
+            "height": 209
+          }
+        }
+      ]
+    },
+    {
+      "start": 115,
+      "buildings": [
+        {
+          "buildingId": "city_national_plaza_twin_towers",
+          "duration": 3,
+          "positionStart": {
+            "x": 579,
+            "y": 450,
+            "width": 165,
+            "height": 143
+          },
+          "positionEnd": {
+            "x": 530,
+            "y": 402,
+            "width": 161,
+            "height": 146
+          }
+        },
+        {
+          "buildingId": "aon_center",
+          "duration": 4,
+          "positionStart": {
+            "x": 241,
+            "y": 343,
+            "width": 120,
+            "height": 280
+          },
+          "positionEnd": {
+            "x": 250,
+            "y": 308 ,
+            "width": 100,
+            "height": 135
+          }
+        },
+        {
+          "buildingId": "777_tower",
+          "duration": 4,
+          "positionStart": {
+            "x": 434,
+            "y": 302,
+            "width": 60,
+            "height": 175
+          },
+          "positionEnd": {
+            "x": 398,
+            "y": 282,
+            "width": 67,
+            "height": 150
+          }
+        }
+      ]
+    },
+    {
+      "start": 119,
+      "buildings": [
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 4.5,
+          "positionStart": {
+            "x": 191,
+            "y": 460,
+            "width": 635,
+            "height": 112
+          },
+          "positionEnd": {
+            "x": 341,
+            "y": 205,
+            "width": 249,
+            "height": 377
+          }
+        }
+      ]
+    },
+    {
+      "start": 124.5,
+      "buildings": [
+        {
+          "buildingId": "aon_center",
+          "duration": 4,
+          "positionStart": {
+            "x": 63,
+            "y": 293,
+            "width": 75,
+            "height": 300
+          },
+          "positionEnd": {
+            "x": 68,
+            "y": 291,
+            "width": 75,
+            "height": 275
+          }
+        },
+        {
+          "buildingId": "611_place",
+          "duration": 4,
+          "positionStart": {
+            "x": 183,
+            "y": 382,
+            "width": 90,
+            "height": 230
+          },
+          "positionEnd": {
+            "x": 174,
+            "y": 381,
+            "width": 85,
+            "height": 205
+          }
+        },
+        {
+          "buildingId": "gas_company_tower_deloitte",
+          "duration": 4,
+          "positionStart": {
+            "x": 452,
+            "y": 337,
+            "width": 100,
+            "height": 275
+          },
+          "positionEnd": {
+            "x": 440,
+            "y": 330,
+            "width": 105,
+            "height": 280
+          }
+        },
+        {
+          "buildingId": "2cal",
+          "duration": 4,
+          "positionStart": {
+            "x": 662,
+            "y": 310,
+            "width": 90,
+            "height": 275
+          },
+          "positionEnd": {
+            "x": 674,
+            "y": 308,
+            "width": 90,
+            "height": 285
+          }
+        }
+      ]
+    },
+    {
+      "start": 134,
+      "buildings": [
+        {
+          "buildingId": "777_tower",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 680,
+            "y": 230,
+            "width": 160,
+            "height": 355
+          },
+          "positionEnd": {
+            "x": 620,
+            "y": 235,
+            "width": 100,
+            "height": 320
+          }
+        },
+        {
+          "buildingId": "us_bank_tower",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 350,
+            "y": 260,
+            "width": 75,
+            "height": 150
+          },
+          "positionEnd": {
+            "x": 341,
+            "y": 257,
+            "width": 50,
+            "height": 120
+          }
+        },
+        {
+          "buildingId": "ey_plaza",
+          "duration": 3.5,
+          "positionStart": {
+            "x": 506,
+            "y": 313,
+            "width": 106,
+            "height": 261
+          },
+          "positionEnd": {
+            "x": 468,
+            "y": 307,
+            "width": 90,
+            "height": 230
+          }
+        }
+      ]
+    },
+    {
+      "start": 138,
+      "buildings": [
+        {
+          "buildingId": "los_angeles_convention_center",
+          "duration": 6,
+          "positionStart": {
+            "x": 406,
+            "y": 386,
+            "width": 200,
+            "height": 180
+          },
+          "positionEnd": {
+            "x": 399,
+            "y": 382,
+            "width": 200,
+            "height": 190
+          }
+        }
+      ]
+    },
+    {
+      "start": 148,
+      "buildings": [
+        {
+          "buildingId": "source_michael_shainblum",
+          "duration": 8,
+          "positionStart": {
+            "x": 200,
+            "y": 375,
+            "width": 450,
+            "height": 150
+          },
+          "positionEnd": {
+            "x": 200,
+            "y": 375,
+            "width": 430,
+            "height": 150
+          }
+        }
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": "us_bank_tower",
+      "name": "U.S. Bank Tower",
+      "description": "U.S. Bank Tower, known locally as the Library Tower and formerly as the First Interstate Bank World Center, is a 1,018-foot (310.3m) skyscraper in downtown Los Angeles, California. It is the second-tallest building in Los Angeles.\n\n1. Name: U.S. Bank Tower\n\n2. Location: 633 West Fifth Street, Los Angeles, California, USA.\n\n3. Height: The U.S. Bank Tower stands at 1,018 feet (310 meters), making it the tallest building in California and the 12th tallest in the United States as of my knowledge cutoff in January 2022.\n\n4. Architect: Designed by architect Henry N. Cobb of the architectural firm Pei Cobb Freed & Partners.\n\n5. Construction: The building was completed in 1989 and opened to the public in 1990. It was initially known as the Library Tower and later renamed the U.S. Bank Tower after U.S. Bancorp.",
+      "image": "./images_buildings/us_bank_tower.jpeg"
+    
+    },
+    {
+      "id": "bank_of_america_plaza",
+      "name": "Bank of America Plaza",
+      "description": "Bank of America Plaza, formerly Security Pacific Plaza, is a 55-story, 224.03m (735.0 ft) class-A office skyscraper on Bunker Hill, Los Angeles, California. It was completed in 1974 with the headquarters of Security Pacific National Bank, Capital Group Companies and Sheppard, Mullin, Richter & Hampton as its main tenants. The tower is the fifth tallest building in Los Angeles, and the 92nd-tallest building in the United States. Featured in several motion pictures, such as being used as the fictional headquarters for Mattel in the film Barbie. Its plaza area was also filmed as that of the adjacent \"Peerless Building\" to the Glass Tower in The Towering Inferno (which was set in San Francisco), as well as the lawyer's office in the film Pretty Woman, and as Tex Richman's office headquarters in The Muppets.",
+      "image": "./images_buildings/bank_of_america_plaza.jpg"
+    
+    },
+    {
+      "id": "wells_fargo_tower",
+      "name": "Wells Fargo Tower",
+      "description": "Wells Fargo Center is a twin tower skyscraper complex in Downtown Los Angeles on Bunker Hill, in Los Angeles, California. It comprises South and North towers, which are joined by a three-story glass atrium. Wells Fargo Tower (Tower I), at 220m (720 ft) it is the tallest building of the complex. It has 54 floors and it is the 8th tallest building in Los Angeles, and the 92nd-tallest building in the United States. When it opened in 1983, it was known as the Crocker Tower, named after San Francisco-based Crocker National Bank. Crocker merged with Wells Fargo in 1986.",
+      "image": "./images_buildings/wells_fargo_tower.jpg"
+    },
+    {
+      "id": "aon_center",
+      "name": "Aon Center",
+      "description": "Aon Center is a 62-story, 858 ft (262m) Modernist office skyscraper at 707 Wilshire Boulevard in downtown Los Angeles, California. Upon its completion in 1973, the building was the tallest in the world outside of New York and Chicago. It remained the tallest building in Los Angeles until 1989, when Library Tower (now U.S. Bank Tower) was completed. Between 1998 and 2001, there were no logos on the building.\n\n 1. Location: The Aon Center is situated in downtown Los Angeles, California.\n\n21. Height: The Aon Center in Los Angeles is a prominent skyscraper with a height of approximately 858 feet (261 meters). It is one of the tallest buildings in the city.\n\n3. Architecture: The building features modern architectural design and is characterized by its sleek and distinctive appearance.\n\n4. Function: The Aon Center is a commercial office building, and it serves as a hub for various businesses and offices.",
+      "image": "./images_buildings/aon_center.jpg"
+    },
+    {
+      "id": "wilshire_grand_center",
+      "name": "Wilshire Grand Center",
+      "description": "Wilshire Grand Center is a 1,100-foot (335.3 m) skyscraper in the financial district of downtown Los Angeles, California, occupying the entire city block between Wilshire Boulevard and 7th, Figueroa, and Francisco streets. Completed in 2017, it is the tallest building west of Chicago. Though the structural top (in this case, the spire) of the Wilshire Grand surpasses L.A.'s U.S. Bank Tower by 82 ft (25 m), the roof of the U.S. Bank Tower is still 90 ft (27.4 m) above the Wilshire Grand's.[8] The Skyscraper Center lists the Wilshire Grand Center as the 15th-tallest building in the U.S. and the 95th-tallest in the world. It won the Structural Engineering Award 2019 Award of Excellence from the Council on Tall Buildings and Urban Habitat.",
+      "image": "./images_buildings/wilshire_grand_center.jpg"
+    },
+    {
+      "id": "the_ritz_carlton_los_angeles",
+      "name": "The Ritz-Carlton Los Angeles",
+      "description": "The centerpiece of the district is a 54-story, 1,001-room two-hotel hybrid tower, constructed above the parking lot directly north of the Staples Center. The Ritz-Carlton Hotel Company, LLC is an American multinational company that operates the luxury hotel chain known as The Ritz-Carlton. The company has 108 luxury hotels and resorts in 30 countries and territories with 29,158 rooms, in addition to 46 hotels with 8,755 rooms planned for the future.",
+      "image": "./images_buildings/the_ritz_carlton_los_angeles.jpg"
+    },
+    {
+      "id": "l_a_live",
+      "name": "L.A. LIVE",
+      "description": "L.A. Live is an entertainment complex in the South Park District of Downtown Los Angeles, California. It is adjacent to the Crypto.com Arena and Los Angeles Convention Center.\n\nL.A. Live was developed by Anschutz Entertainment Group (AEG) (which Anschutz is based in and L.A. Live is the flagship of), Wachovia Corp, Azteca Corp, investment firm MacFarlane Partners, and with tax deferments paid by Los Angeles taxpayers. It cost approximately US$2.5 billion to build. The architectural firm responsible for the master plan and phase two buildings was Baltimore-based RTKL Associates. \n 1. Name: L.A. Live\n\n 2. Location: 800 W Olympic Blvd, Los Angeles, CA 90015, USA\n\n 3. Description:\nL.A. Live is a bustling entertainment and sports district that features a variety of attractions, including sports and music venues, restaurants, hotels, and theaters. It is adjacent to the Staples Center and the Los Angeles Convention Center, making it a central hub for entertainment and events in downtown Los Angeles.\n\nKey Components:\n\nStaples Center: A major sports and entertainment arena that hosts concerts, sporting events, and other live performances. It is the home arena for the Los Angeles Lakers and the Los Angeles Clippers NBA teams, as well as the Los Angeles Kings NHL team.\n\nMicrosoft Theater: A popular music and entertainment venue with a seating capacity of over 7,000. It hosts concerts, award shows, and other live events.\n\nThe Novo: A smaller concert venue adjacent to the Microsoft Theater, suitable for more intimate performances.\n\nRegal Cinemas L.A. Live: A multi-screen movie theater offering the latest film releases.\n\nJW Marriott Los Angeles L.A. Live and The Ritz-Carlton, Los Angeles: Luxurious hotels that provide accommodation options for visitors to the area.\n\nRestaurants and Nightlife: L.A. Live features a variety of dining options, including restaurants, bars, and clubs, providing a diverse culinary experience.",
+      "image": "./images_buildings/l_a_live.jpg"
+    },
+    {
+      "id": "at_and_t_switching_center",
+      "name": "AT&T Switching Center",
+      "description": "The AT&T Madison Complex Tandem Office is a 17-story, 79m (259 ft) building in Los Angeles, California, completed in 1961. With its microwave tower, used through 1993, bringing the overall height to 137m (449 ft), it is the 29th tallest building in Los Angeles. The building serves 1.3 million phone lines in area code 213, and other Los Angeles area codes, for foreign long-distance calling.",
+      "image": "./images_buildings/at_and_t_switching_center.jpg"
+    },
+    {
+      "id": "crypto_com_arena",
+      "name": "Crypto.com Arena",
+      "description": "Crypto.com Arena is a multi-purpose indoor arena in Downtown Los Angeles. The main attraction of the L.A. Live development, it is located next to the Los Angeles Convention Center complex along Figueroa Street. The arena opened on October 17, 1999; it was previously known as Staples Center until December 2021 when Crypto.com acquired the naming rights. The arena is the flagship attraction of locally-based Anschutz Entertainment Group. Crypto.com Arena has 950,000 square feet (88,257.9 m2) of total space, with a 94-foot (28.7 m) by 200-foot (61.0 m) arena floor. It stands 150 feet (45.7 m) tall. The arena seats up to 19,067 for basketball, 18,145 for ice hockey, and around 20,000 for concerts or other sporting events. Name: Crypto.com Arena\n\nLocation: 1111 S Figueroa St, Los Angeles, CA 90015, USA\n\nOwnership: The arena is owned and operated by the Anschutz Entertainment Group (AEG).\n\nTenants:\n\nLos Angeles Lakers (NBA)\nLos Angeles Clippers (NBA)\nLos Angeles Kings (NHL)",
+      "image": "./images_buildings/crypto_com_arena.jpg"
+    },
+    {
+      "id": "peacock_theater_and_the_novo",
+      "name": "Peacock Theater & The Novo",
+      "description": "Peacock Theater hosts over 120 music, family, dance and comedy acts, award shows, televised productions, conventions and product launches with over 500,000 guests passing through the doors annually. The 7,100-seat theater offers guests mid-sized intimacy, with no seat further from the stage than 220 feet. Peacock Theater offers 12,000 square feet of VIP & hospitality areas, 10 dressing rooms and state of the art technology making it is a favorite indoor venue for performers and fans alike. The Novo (formerly Club Nokia) is an indoor club located at L.A. Live in downtown Los Angeles, California. The club's seating capacity is 2,400. The venue opened on November 8, 2008, as \"Club Nokia\" with shows held by the musician Beck over the first two nights. Its name was changed in March 2016, several months after the neighboring Nokia Theater's name was changed to the Microsoft Theater. The theater continues to be booked by Goldenvoice.",
+      "image": "./images_buildings/peacock_theater_and_the_novo.jpg"
+    },
+    {
+      "id": "city_national_bank",
+      "name": "City National Bank",
+      "description": "City National Bank (CNB) is a bank headquartered at City National Plaza in Los Angeles, California. CNB is a subsidiary of the Toronto-based Royal Bank of Canada and it is the 35th largest bank in the United States as of March 31, 2022.\n\nCNB has been dubbed the \"Bank to the Stars\" due to its extensive relationships with numerous Hollywood entertainment industry clients, and deals with many exclusive and premier clients from various media, including television, film, theater and the arts. Name: City National Bank\n\nLocation: Based in Los Angeles, California, with branches and offices in various locations.\n\nHistory: City National Bank was founded in 1954. It has a long history of providing financial services, particularly catering to high-net-worth individuals, entrepreneurs, and businesses.\n\nOwnership: City National Bank was a subsidiary of the Royal Bank of Canada (RBC). RBC acquired City National Bank in 2015.\n\nServices:\n\nCity National Bank offers a range of financial services, including personal banking, business banking, wealth management, and private banking.\nThe bank is known for its focus on serving affluent clients and providing personalized financial solutions.",
+      "image": "./images_buildings/city_national_bank.jpg"
+    },
+    {
+      "id": "777_tower",
+      "name": "777 Tower",
+      "description": "777 Tower (originally known as Citicorp Center and also known as Pelli Tower) is a 221 m (725 ft), 52-story high-rise office building designed by César Pelli located at 777 South Figueroa Street in the Financial District of Downtown Los Angeles, California.\n\nDeveloped in 1991 by South Figueroa Plaza Associates as Citicorp Plaza, the building spans approximately 1,025,000 sq ft (95,200 m2) and has a three-story Italian marble lobby. Height:\n\nTotal height\nNumber of floors\nArchitect:\n\nArchitectural firm responsible for the design\nConstruction Timeline:\n\nStart date\nCompletion date\nBuilding Features:\n\nArchitectural style\nNotable design elements\nUse of the building (e.g., residential, commercial, mixed-use)\nOwnership/Management:\n\nCurrent owner\nProperty management company",
+      "image": "./images_buildings/777_tower.jpg"
+    },
+    {
+      "id": "tcw_tower",
+      "name": "TCW Tower",
+      "description": "The TCW Tower is a 37-story, 157.58 m (517.0 ft) skyscraper in Los Angeles, California. It is the 19th tallest building in the city. The building was completed in 1990 when it and its designer, Albert C. Martin & Associates, were awarded the Outstanding Structural Design Award by the Los Angeles Tall Building Structural Design Council.",
+      "image": "./images_buildings/tcw_tower.jpg"
+    },
+    {
+      "id": "611_place",
+      "name": "611 Place",
+      "description": "611 Place is a 42-story, 189 m (620 ft) skyscraper at 611 West 6th Street in Downtown Los Angeles, California, designed by William L. Pereira & Associates and completed in 1969. The building was commissioned by the now-defunct Crocker Citizen's Bank, and served as its Southern California headquarters until 1983, when it moved to Crocker Center, now Wells Fargo Center (Los Angeles). It was subsequently bought by AT&T. It was the tallest building in Los Angeles upon completion, and the first building to surpass Los Angeles City Hall in terms of structural height",
+      "image": "./images_buildings/611_place.jpg"
+    },
+    {
+      "id": "city_national_plaza_twin_towers",
+      "name": "City National Plaza Twin Towers",
+      "description": "City National Plaza is a twin tower skyscraper complex on South Flower Street in western Downtown Los Angeles, California, United States. It was originally named ARCO Plaza upon opening in 1972. ARCO Plaza opened with a 220,000 sq ft (20,000 m2) shopping center on two levels which gained attention for the novelty of a shopping center within an office tower complex and for its sleek design of brick walkways, tiled and mirrored escalator wells and fresh flowers.",
+      "image": "./images_buildings/city_national_plaza_twin_towers.jpg"
+    },
+    {
+      "id": "dodger_stadium",
+      "name": "Dodger Stadium",
+      "description": "Dodger Stadium is a baseball stadium in the Elysian Park neighborhood of Los Angeles, California. It is the ballpark of Major League Baseball's Los Angeles Dodgers. Opened in 1962, it was constructed in less than three years at a cost of US$23 million (US$223 million in 2020 dollars). It is the oldest ballpark in MLB west of the Mississippi River, and third-oldest overall, after Fenway Park in Boston (1912) and Wrigley Field in Chicago (1914), and is the largest baseball stadium in the world by seat capacity. Often referred to as a \"pitcher's ballpark\", the stadium has seen 13 no-hitters, two of which were perfect games. Its also been deemed the most popular MLB stadium on social media.",
+      "image": "./images_buildings/dodger_stadium.jpg"
+    },
+    {
+      "id": "california_highway_patrol",
+      "name": "California Highway Patrol",
+      "description": "The California Highway Patrol (CHP) is a state law enforcement agency of the U.S. state of California. The CHP has primary patrol jurisdiction over all California highways and roads and streets outside city limits, and can exercise law enforcement powers anywhere within the state. The California Highway Patrol can assist local and county agencies and can patrol major city streets along with local and county law enforcement, state and interstate highways, and is the primary law enforcement agency in rural parts of the state.",
+      "image": "./images_buildings/california_highway_patrol.png"
+    },
+    {
+      "id": "junction_between_10_110",
+      "name": "I-10 / I-110 Interchange",
+      "description": "Location:\n\nInterchanges in Los Angeles are often complex due to the extensive highway network and the high traffic volume in the area.\nThe specific location of the interchange would depend on the exact segment of I-10 and I-110 you are referring to.\nTraffic Conditions:\n\nTraffic conditions in the Los Angeles area can vary widely depending on the time of day and day of the week.\nMorning and evening rush hours are typically congested.\nImportance:\n\nInterchanges are crucial points in a highway system, facilitating the movement of traffic between different routes.",
+      "image": "./images_buildings/junction_between_10_110.webp"
+    },
+    {
+      "id": "gas_company_tower_deloitte",
+      "name": "Gas Company Tower (Deloitte)",
+      "description": "Gas Company Tower is a 52-story, 749 ft (228.3 m) class-A office skyscraper on Bunker Hill in downtown Los Angeles, California. Located on the north side of Fifth Street between Olive Street and Grand Avenue, across from the Biltmore Hotel, the building serves as the headquarters for the Southern California Gas Company, which vacated its previous offices on Eighth- and Flower-streets in 1991, and is home to the Los Angeles offices of law firm Arent Fox.[8]\n\nIn 2014, Deloitte became the first tenant to have their logo affixed to the peak of the building which had been left plain since the building was completed. This giant accounting firm moved from nearby Two California Plaza, where it had been since 2000.[9]\n\nThe tower's owner, Brookfield, defaulted on Gas Company Tower and the 777 Tower, also in Los Angeles, in 2023. Location:\n\nAddress: 555 West Fifth Street, Los Angeles, California, USA.\nThe tower is situated in the Bunker Hill district of downtown Los Angeles.\nArchitectural Information:\n\nThe Gas Company Tower is a modern skyscraper known for its distinctive architectural design.\nArchitect: Richard Keating of the architectural firm Skidmore, Owings & Merrill.\nThe building features a combination of glass and steel in its construction, giving it a sleek and contemporary appearance.\nHeight and Structure:\n\nThe Gas Company Tower stands at a height of approximately 228 meters (749 feet).\nIt has 52 floors above ground and is one of the prominent structures in the Los Angeles skyline.\nCompletion and Opening:\n\nConstruction of the Gas Company Tower was completed in 1991.\nThe tower officially opened to the public in 1991.\nUse:\n\nThe Gas Company Tower is primarily an office building, housing various companies and businesses.",
+      "image": "./images_buildings/gas_company_tower_deloitte.jpg"
+    },
+    {
+      "id": "2cal",
+      "name": "2CAL",
+      "description": "2Cal, formerly known as Two California Plaza, is a 750-foot (230 m) skyscraper in the Bunker Hill District of downtown Los Angeles, California, United States. The tower is part of the California Plaza project, consisting of two unique skyscrapers, One California Plaza and Two California Plaza. The Plaza is also home to the Los Angeles Museum of Contemporary Art (MoCA), Colburn School of Performing Arts, the Los Angeles Omni Hotel, and a 1.5-acre (0.61 ha) water court.",
+      "image": "./images_buildings/2cal.jpg"
+    },
+    {
+      "id": "union_bank_plaza",
+      "name": "Union Bank Plaza",
+      "description": "Union Bank Plaza is a Los Angeles Historic-Cultural Monument listed 40-story, 157 m (515 ft) office skyscraper located on South Figueroa Street in Downtown Los Angeles, California. The property was named for the formerly Los Angeles based Union Bank & Trust Company, who leased 14 floors for their corporate headquarters.",
+      "image": "./images_buildings/union_bank_plaza.webp"
+    },
+    {
+      "id": "figueroa_at_wilshire",
+      "name": "Figueroa at Wilshire",
+      "description": "Figueroa at Wilshire, formerly Sanwa Bank Plaza, is a 53-story, 218.5 m (717 ft) skyscraper in Los Angeles, California, United States. It is the eighth-tallest building in Los Angeles. It was designed by Albert C. Martin & Associates, and developed by Hines Interests Limited Partnership. It won the Rose Award for \"Outstanding New Office Building\" in 1991. The tower was constructed from 1988 to 1990 on the site of the former St. Paul's Episcopal Cathedral.",
+      "image": "./images_buildings/figueroa_at_wilshire.jpg"
+    },
+    {
+      "id": "los_angeles_center_studios",
+      "name": "Los Angeles Center Studios",
+      "description": "Los Angeles Center Studios, is a 20-acre film production studio located in the City West neighborhood of Los Angeles, California, United States. Location:\n123 S. Main Street, Los Angeles, CA\n\nOverview:\nLos Angeles Center Studios is a film and television production facility located in the heart of downtown Los Angeles. It serves as a hub for various entertainment industry activities, providing state-of-the-art facilities for film and TV productions.\n\nFacilities:\n\nMultiple sound stages equipped with the latest technology for film and television production.\nProduction offices and post-production facilities.\nOn-site amenities such as catering services and dressing rooms.\nParking facilities for cast and crew.",
+      "image": "./images_buildings/los_angeles_center_studios.jpg"
+    },
+    {
+      "id": "westin_bonaventure_hotel",
+      "name": "Westin Bonaventure Hotel",
+      "description": "The Westin Bonaventure Hotel and Suites is a 367-foot (112 m), 33-story hotel in Los Angeles, California, constructed between 1974 and 1976.[6] It was designed by architect John C. Portman Jr.. The top floor has a revolving restaurant and bar. It was originally owned by investors that included a subsidiary of Japanese conglomerate Mitsubishi Corporation and John Portman & Associates. The building is managed by Aimbridge Hospitality (IHR), and is valued at $200 million. Location:\n\nAddress: 404 S Figueroa St, Los Angeles, CA 90071, USA\nThe hotel is situated in the heart of downtown Los Angeles, making it convenient for both business and leisure travelers.\nArchitecture:\n\nThe Westin Bonaventure is known for its distinctive cylindrical glass tower design. It consists of five cylindrical towers, each offset from the others, creating a unique and iconic appearance on the Los Angeles skyline.\nAccommodations:\n\nThe hotel offers a range of rooms and suites, providing guests with comfortable and well-appointed spaces. Rooms often feature modern amenities, including Westin's signature Heavenly Beds.\nDining:\n\nThe Westin Bonaventure has multiple dining options, including restaurants and bars, offering a variety of cuisines to cater to diverse tastes.\nMeetings and Events:\n\nThe hotel is equipped with extensive meeting and event facilities, making it a popular choice for conferences, weddings, and other special occasions. The meeting spaces are designed to accommodate both large and intimate gatherings.",
+      "image": "./images_buildings/westin_bonaventure_hotel.jpg"
+    },
+    {
+      "id": "wedbush_center",
+      "name": "Wedbush Center",
+      "description": "The first \"Post-Modern\" building in Los Angeles, this 22-story, 452,000 square foot steel and concrete tower with granite and glass facade is located between Wilshire Bvd. and 7th Street, adjacent to the Harbor (I-110) Freeway. Wedbush Securities Inc. is a privately held investment firm based in Los Angeles.[2] As of February 2022, the firm had $4.1 billion under management with 7,460 clients.",
+      "image": "./images_buildings/wedbush_center.jpg"
+    },
+    {
+      "id": "tenten_wilshire",
+      "name": "TENTEN Wilshire",
+      "description": "TenTen Wilshire is the fantastic new mixed use project with 227 Live/Work rental residences above approximately 8,725 SF of prime ground floor retail space.",
+      "image": "./images_buildings/tenten_wilshire.jpg"
+    },
+    {
+      "id": "arco_tower",
+      "name": "ARCO Tower",
+      "description": "ARCO Tower (currently known as 1055 West Seventh) is a high-rise office building located at 1055 West Seventh Street in Los Angeles, California.\n\nIt has 33 stories and stands at a height of 141 m (463 ft), making it the 32nd tallest building in Los Angeles. Located in Central City West, [5][6] It has a prominent position in the local skyline, as it is across the 110 (Harbor) Freeway from the majority of the skyscrapers in downtown Los Angeles and the only other nearby building taller than it is 1100 Wilshire. The building has a floor area of 205,054m² and was designed by Gin Wong Associates. Construction of the building began in 1988 and was completed in 1989. The building was one of three ARCO Towers within blocks of each other in Los Angeles when constructed. It changed its name to 1055 West Seventh in 1998 due to ARCO relocating.",
+      "image": "./images_buildings/arco_tower.jpeg"
+    },
+    {
+      "id": "ey_plaza",
+      "name": "EY Plaza",
+      "description": "EY Plaza, formerly known as Ernst & Young Plaza, is a 534-foot (163 m) tall skyscraper in Los Angeles, California. It was completed in 1985, has 41 floors and is the 18th tallest building in Los Angeles. The tower is currently owned by Brookfield Properties Inc, and was designed by Skidmore, Owings & Merrill LLP. Even though it is in California, this building was placed in the New York skyline in the movie The Day After Tomorrow.\n\nUpon completion in October 1985 as Citcorp Center, it was financial giant Citicorp's California headquarters and the anchor of the Citicorp Plaza development, also including the Seventh Market Place mall.",
+      "image": "./images_buildings/ey_plaza.jpg"
+    },
+    {
+      "id": "los_angeles_convention_center",
+      "name": "Los Angeles Convention Center",
+      "description": "The Los Angeles Convention Center is a convention center in the southwest section of downtown Los Angeles. It hosts multiple annual conventions and has often been used as a filming location in TV shows and movies. The convention center hosts annual events such as the Los Angeles Auto Show, the Abilities Expo, the Anime Expo, and is best known to video game fans as host to the Electronic Entertainment Expo, also known as E3. Location:\n\nAddress: 1201 S Figueroa St, Los Angeles, CA 90015, USA.\nSituated in downtown Los Angeles, the LACC is conveniently located near major attractions, hotels, and transportation hubs.\nFacilities:\n\nThe convention center spans over 870,000 square feet.\nIt features a variety of exhibit halls, meeting rooms, and ballrooms.\nState-of-the-art technology and amenities are available to accommodate various events.\nEvents and Conventions:\n\nThe LACC hosts a diverse range of events, including conventions, trade shows, conferences, and entertainment events.\nIt is a popular venue for both local and international gatherings.\nExpansion:\n\nPlans for expansion and renovation have been considered to enhance the convention center's capabilities and accommodate larger events.",
+      "image": "./images_buildings/los_angeles_convention_center.webp"
+    },
+    {
+      "id": "source_michael_shainblum",
+      "name": "Michael Shainblum",
+      "description": "Michael Shainblum specializes in landscape, aerial, timelapse and milky way astrophotography. He produces original video content and photography galleries. As well as photography tutorials and education. Michael has a decade of experience in professional photography and filmmaking.",
+      "image": "./images_buildings/source_michael_shainblum.jpg"
+    }
+  ]
+  }
+}

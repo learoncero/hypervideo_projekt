@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'yu gothic light', sans-serif;
+    box-sizing: border-box;
+}
+
+div.welcome-page-text {
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+div.navbar {
+    background-color: rgb(226, 195, 16);
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+div.navbar nav {
+    list-style-type: none;
+}
+
+div.navbar a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    float: left;    /* notwendig? */
+}
+
+div.navbar a:hover:not(.active) {
+    background-color: rgb(255, 239, 148);
+}
+
+div.navbar a.active {
+    background-color: rgb(255, 239, 148);
+}
+
+div.logo {
+    float: right;
+    margin-right: 30px;
+}
+
+div.logo img {
+    width: auto;
+    height: 60px;
+}

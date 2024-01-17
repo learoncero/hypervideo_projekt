@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>InfoActiveVideo</title>
+
+        <link rel="stylesheet" href="../NavbarAndStyle.css">
+		    <link rel="stylesheet" href="video-page-style.css">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="../branding/logo.png">
+    </head>
+
+    <body>
+        <header>
+          <div class="navbar">
+            <nav>
+                <a href="../index-page/index.html">Home</a>
+                <a class="active" href="video.html">Video</a>
+                <a href="../team-page/team.html">Team</a>
+            </nav>
+            <div class="logo">
+                <a href="../index-page/index.html">
+                    <img src="../branding/logo_withName.png" alt="Logo">
+                </a>
+            </div>
+          </div>
+        </header>
+		    <div class="video-page-title">
+            <h1>Los Angeles, an aerial perspective from a helicopter</h1>
+            <br>
+        </div>
+
+        <div class="video-page-table">
+          <table>
+            <tr>
+              <td class="video-column">
+                <div class="player-column">
+                  <video id="videoID" controls disablePictureInPicture controlslist="nofullscreen" muted>
+                    <source src="video/LosAngelesArial.mp4" type="video/mp4">
+                    <source src="video/LosAngelesArial.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div> 										
+              </td>
+              <td class="text-column">
+                <div id="infobox" class="infobox">
+                  <h2>Tutorial</h2>
+                  <img src="" alt="">
+                  <div>
+                    <h3>How to Explore our Interactive Cityscape:</h3>
+                    <br>
+                    <ol>
+                      <li class="ordered-list-element">
+                        <strong>Navigating the Video:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            Use the standard video controls at the bottom to Play, Pause, and Rewind.
+                          </li>
+                          <li class="instruction-list-element">
+                            Please bear in mind that the video cannot be viewed in fullscreen mode.
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="ordered-list-element">
+                        <strong>Identifying Buildings:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            As you watch, you'll notice yellow boxes outlining specific buildings in Downtown Los Angeles.
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="ordered-list-element">
+                        <strong>Interactive Clicking:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            Click on any building with a yellow box to pause the video automatically.
+                          </li>
+                          <li class="instruction-list-element">
+                            A detailed information box will appear, providing fascinating facts about the selected building.
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="ordered-list-element">
+                        <strong>Resuming the Video:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            To continue the video, manually click the "Play" button on the video controls.
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="ordered-list-element">
+                        <strong>Exploring at Your Own Pace:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            Feel free to click on multiple buildings, exploring the cityscape at your own pace.
+                          </li>
+                          <li class="instruction-list-element">
+                            You're in control of when to pause and discover more about each architectural marvel.
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="ordered-list-element">
+                        <strong>Getting Back to the Action:</strong>
+                        <ul>
+                          <li class="instruction-list-element">
+                            After reading the building information, click "Play" to resume the video and 
+                            continue your journey through Downtown LA.
+                          </li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>  
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="box-container" id="box-container">
+        </div>
+    </body>
+
+    <script src="video.js"></script>
+    <script>
+      // Assuming your JSON file is in the same directory as your HTML file
+      fetch('video.json')
+        .then(response => response.json())
+        .then(data => {
+          const timestamps = data.video.timestamps;
+          const buildings = data.video.buildings;
+          let video = document.getElementById("videoID");
+          let boxContainer = document.getElementById("box-container");
+
+          let addedBuildings = [];
+          video.addEventListener("timeupdate", function() {
+            timestamps.forEach(timestamp => {
+              if (video.currentTime >= timestamp.start) {
+                timestamp.buildings.forEach(building => {
+                  const end = timestamp.start + building.duration;
+                  // Check if the building has not been added already
+                  if (!buildingAlreadyAdded(building)) {
+                    if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
+                      addBox(building, boxContainer, timestamp.start);
+                      addedBuildings.push(building);
+					  /*-- Logging the keyframes
+                      console.log("Keyframes list after adding a keyframe")
+                      logKeyframes(document.styleSheets[1])  */          
+                    }
+                  }
+                });
+              }
+            });
+
+            // Function to check if a building has already been added
+            function buildingAlreadyAdded(building) {
+              return addedBuildings.some(addedBuilding => addedBuilding === building);
+            }
+
+            const boxes = document.querySelectorAll(".box");
+            const infoBox = document.getElementById("infobox");
+            
+            boxes.forEach(box => {
+              box.addEventListener("click", function() {
+                let boxID = box.getAttribute("id");
+                let description;
+                let title;
+                let image;
+
+                buildings.forEach(building => {
+                  if (building.id == boxID) {
+                    description = building.description;
+                    title = building.name;
+                    image = building.image;
+                  }
+                });
+                
+                updateInfoBox(infoBox, description, title, image);
+                video.pause();
+
+              });
+
+              let end = box.getAttribute("data-end");
+              let start = box.getAttribute("data-start");
+              if ((video.currentTime >= end) || (video.currentTime <= start)) {
+                boxContainer.removeChild(box.parentNode);
+                addedBuildings.forEach(aB => {
+                  if (aB.buildingId == box.id) {
+                    addedBuildings = addedBuildings.filter(building => building !== aB);
+					
+					          // Remove the keyframes rule
+                    removeKeyframesRule(aB.buildingId);
+					
+                    /* console.log(`Keyframes rule for ${aB.buildingId} after deletion:`);
+                    var style = document.styleSheets[1];
+                    logKeyframes(style); */
+
+                    removeKeyframesRule(aB.buildingId);
+                  }
+                })
+              }
+            });
+          });
+
+          let isVideoPlaying = false;
+
+          video.addEventListener("play", function () {
+            isVideoPlaying = true;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+
+          video.addEventListener("pause", function () {
+            isVideoPlaying = false;
+            playOrPauseBoxes(isVideoPlaying);
+          });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</html>
