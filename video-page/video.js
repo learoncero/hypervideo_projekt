@@ -1,3 +1,7 @@
+function buildingAlreadyAdded(building, addedBuildings) {
+    return addedBuildings.some(addedBuilding => addedBuilding === building);
+}
+
 function addBox(building, container, start) {
     var boxLink = createElement("a");
     var boxDiv = createElement("div");
@@ -50,27 +54,22 @@ function updateInfoBox(infoBox, description, title, image) {
     imgElement.style.width = "";
     imgElement.style.height = "";
     imgElement.style.objectFit = "";
-    // Hide the image initially
     imgElement.style.display = "none";
   
     h2Element.innerHTML = title;
     imgElement.src = image;
     imgElement.alt = title + " Image";
 
-    // Wait for the image to load before checking its dimensions
     imgElement.onload = function() {
-        // Check if the image is wider than it is tall
         if (imgElement.naturalWidth > imgElement.naturalHeight) {
             imgElement.style.width = "250px";
             imgElement.style.height = "150px";
         } else {
-            // Image is taller than it is wide
             imgElement.style.height = "200px";
             imgElement.style.width = "150px";
         }
 
         imgElement.style.objectFit = "cover";
-        // Show the image after styles are applied
         imgElement.style.display = "block";
 
         pElement.innerHTML = "<br>" + description;
@@ -81,15 +80,12 @@ function createElement(elementType) {
     return document.createElement(elementType);
 }
 
-// Function to remove keyframes rule by buildingId name
 function removeKeyframesRule(buildingId) {
-    const styleSheet = document.styleSheets[1]; // Update index if needed
+    const styleSheet = document.styleSheets[1];
 
-    // Find the index of the rule with the specified name
     for (let i = 0; i < styleSheet.cssRules.length; i++) {
         const rule = styleSheet.cssRules[i];
-        if (rule.type === CSSRule.KEYFRAMES_RULE && rule.name === `moveContainer_${buildingId}`){
-            // Delete the rule at the found index
+        if (rule.name === `moveContainer_${buildingId}`){
             styleSheet.deleteRule(i);
             break;
         }
@@ -107,6 +103,8 @@ function playOrPauseBoxes(isPlaying) {
       }
     });
 }
+
+
 
 /*  Function to log keyframes for a specific animation name
 function logKeyframes(styleSheet) {

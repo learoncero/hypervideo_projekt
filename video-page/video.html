@@ -122,7 +122,6 @@
 
     <script src="video.js"></script>
     <script>
-      // Assuming your JSON file is in the same directory as your HTML file
       fetch('video.json')
         .then(response => response.json())
         .then(data => {
@@ -138,23 +137,15 @@
                 timestamp.buildings.forEach(building => {
                   const end = timestamp.start + building.duration;
                   // Check if the building has not been added already
-                  if (!buildingAlreadyAdded(building)) {
+                  if (!buildingAlreadyAdded(building, addedBuildings)) {
                     if ((video.currentTime >= timestamp.start) && (video.currentTime <= end)) {
                       addBox(building, boxContainer, timestamp.start);
-                      addedBuildings.push(building);
-					  /*-- Logging the keyframes
-                      console.log("Keyframes list after adding a keyframe")
-                      logKeyframes(document.styleSheets[1])  */          
+                      addedBuildings.push(building);        
                     }
                   }
                 });
               }
             });
-
-            // Function to check if a building has already been added
-            function buildingAlreadyAdded(building) {
-              return addedBuildings.some(addedBuilding => addedBuilding === building);
-            }
 
             const boxes = document.querySelectorAll(".box");
             const infoBox = document.getElementById("infobox");
@@ -186,31 +177,19 @@
                 addedBuildings.forEach(aB => {
                   if (aB.buildingId == box.id) {
                     addedBuildings = addedBuildings.filter(building => building !== aB);
-					
-					          // Remove the keyframes rule
-                    removeKeyframesRule(aB.buildingId);
-					
-                    /* console.log(`Keyframes rule for ${aB.buildingId} after deletion:`);
-                    var style = document.styleSheets[1];
-                    logKeyframes(style); */
-
                     removeKeyframesRule(aB.buildingId);
                   }
-                })
+                });
               }
             });
           });
 
-          let isVideoPlaying = false;
-
           video.addEventListener("play", function () {
-            isVideoPlaying = true;
-            playOrPauseBoxes(isVideoPlaying);
+            playOrPauseBoxes(true);
           });
 
           video.addEventListener("pause", function () {
-            isVideoPlaying = false;
-            playOrPauseBoxes(isVideoPlaying);
+            playOrPauseBoxes(false);
           });
         })
         .catch(error => console.error('Error fetching JSON:', error));
